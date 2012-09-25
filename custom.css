@@ -4,10 +4,13 @@
   .assets {
  -webkit-mask-box-image: url('images/assets.png');
  }
+ 
   .customer {
+ 
  -webkit-mask-box-image: url('images/customer.png');
   }
   .summary {
+ 
  -webkit-mask-box-image: url('images/summary.png');
  }
  .insurance {
