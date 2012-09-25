@@ -1,0 +1,14 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PersonalInformation",
+        "designer|userAlias": "PersonalInformation"
+    },
+    "id": "ExtBox1-ext-gen14426",
+    "designerId": "9a127df6-7b9b-4f58-b858-f3297e66fe51"
+}

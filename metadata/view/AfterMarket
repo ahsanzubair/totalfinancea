@@ -1,0 +1,650 @@
+{
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "iconCls": "insurance",
+        "title": "After Market",
+        "designer|userClassName": "AfterMarket",
+        "designer|userAlias": "aftermarket",
+        "ui": "dark",
+        "width": "100%",
+        "scrollable": [
+            "vertical"
+        ]
+    },
+    "id": "ExtBox1-ext-gen49984",
+    "designerId": "87284749-da14-4783-bce7-d204b2f1d5c6",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "iconCls",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "docked": "top",
+                "height": 80,
+                "ui": "light"
+            },
+            "designerId": "9ed2f8b9-05e4-49f7-b208-f44f656efcdf",
+            "cn": [
+                {
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLabel",
+                        "height": 31,
+                        "html": "After Market",
+                        "padding": 5,
+                        "width": 113
+                    },
+                    "designerId": "9aa9b34c-72ef-45e7-be3b-db3bad2744a9"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "CancelAction",
+                        "designer|userClassName": "MyButton",
+                        "docked": "right",
+                        "width": 100,
+                        "icon": "images/cancel.png",
+                        "iconCls": "cancel",
+                        "text": "Cancel"
+                    },
+                    "designerId": "199c6a56-ba29-424b-b6d4-f058266aa572",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton1",
+                        "docked": "right",
+                        "width": 92,
+                        "icon": "images/save.png",
+                        "iconCls": "save",
+                        "text": "Save"
+                    },
+                    "designerId": "52bebba0-466e-40f4-ad35-2eecbaf48e87"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "PrintAction",
+                        "designer|userClassName": "MyButton2",
+                        "docked": "right",
+                        "width": 98,
+                        "icon": "images/print.png",
+                        "iconCls": "print",
+                        "text": "Print"
+                    },
+                    "designerId": "1c6b1244-10ab-4b7f-8ef7-d2198717419e",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton3",
+                        "docked": "right",
+                        "width": 101,
+                        "icon": "images/next1.png",
+                        "text": null
+                    },
+                    "designerId": "18988d40-17c9-443c-9d1f-39cf82e34b8a"
+                }
+            ]
+        },
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel18",
+                "height": 500,
+                "id": "AfterMarketTAB",
+                "left": "1%",
+                "right": "",
+                "width": "45%"
+            },
+            "designerId": "4658bfee-c66d-4ffa-9687-ffaf11b675b3",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "After Market",
+                        "designer|userClassName": "MyContainer119",
+                        "cls": [
+                            "tabBG"
+                        ]
+                    },
+                    "designerId": "aed74ffd-a44e-4c2c-b11d-06e48d233fd4",
+                    "cn": [
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer",
+                                "height": 20
+                            },
+                            "designerId": "f2e01888-a628-48ae-8964-d47a861ee372"
+                        },
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": 20,
+                                "top": "",
+                                "width": "90%",
+                                "inputCls": "textBlack",
+                                "label": "Supplier:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "40%"
+                            },
+                            "designerId": "4b8f3ba2-7c0d-42fc-8e9f-01ccc26717fa"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer",
+                                "height": 100
+                            },
+                            "designerId": "e4214c44-f51c-4257-8373-2360b036c592"
+                        },
+                        {
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNumberField",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": 20,
+                                "top": "",
+                                "width": "90%",
+                                "clearIcon": false,
+                                "inputCls": "textBlack",
+                                "label": "Invoice Price:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "40%"
+                            },
+                            "designerId": "54e04816-712e-47c1-a19d-9d6ca7c2eea1"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer",
+                                "height": 100
+                            },
+                            "designerId": "d2562c12-f277-4270-ab59-ec61a58c81dd"
+                        },
+                        {
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNumberField",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": 20,
+                                "top": "",
+                                "width": "90%",
+                                "clearIcon": false,
+                                "inputCls": "textBlack",
+                                "label": "Commission: ",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "40%"
+                            },
+                            "designerId": "0910aead-3c71-4892-a5f3-3bca072d216e"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer",
+                                "height": 100
+                            },
+                            "designerId": "25340225-93a3-4057-9677-6c71cbd934f2"
+                        },
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel74",
+                                "cls": [
+                                    "staticText"
+                                ],
+                                "docked": "left",
+                                "height": 39,
+                                "html": "Total:",
+                                "left": "40%",
+                                "top": "",
+                                "width": ""
+                            },
+                            "designerId": "e9b4ac50-2ba5-408f-9661-f2fa6db38e36"
+                        },
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel74",
+                                "cls": [
+                                    "staticText"
+                                ],
+                                "docked": "left",
+                                "height": 39,
+                                "html": "0.0 ",
+                                "left": "60%",
+                                "top": "",
+                                "width": ""
+                            },
+                            "designerId": "6c1e2799-de6c-40e5-8744-bf57b84cd192"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer",
+                                "height": 40
+                            },
+                            "designerId": "d0c341a1-9cc9-4340-b78c-2b6e2ade0553"
+                        },
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel74",
+                                "cls": [
+                                    "staticText"
+                                ],
+                                "docked": "left",
+                                "html": "excluding GST",
+                                "left": 35,
+                                "top": "",
+                                "width": ""
+                            },
+                            "designerId": "5cb50545-fca9-4d3d-aa0f-e61390fd1e80"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel18",
+                "height": 500,
+                "id": "OtherInsuranceTAB",
+                "right": "1%",
+                "width": "45%"
+            },
+            "designerId": "4b72ede7-516f-4c99-a79a-edde47008722",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Other Insurance",
+                        "designer|userClassName": "MyContainer119",
+                        "cls": [
+                            "tabBG"
+                        ]
+                    },
+                    "designerId": "e2d55c21-9abb-4059-b466-d97023d6ca52",
+                    "cn": [
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer54",
+                                "height": 20
+                            },
+                            "designerId": "8e5b708c-1e29-44d9-92c9-93a6d1b5cd04"
+                        },
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": "",
+                                "left": 20,
+                                "top": "",
+                                "width": "93%",
+                                "inputCls": "textBlack",
+                                "label": "Supplier:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "40%"
+                            },
+                            "designerId": "69615ecd-8dc9-4c9a-a621-24aa2a72f582"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer54",
+                                "height": 100
+                            },
+                            "designerId": "ccaab84c-09ea-4e40-ace0-eaacfc4cb9f8"
+                        },
+                        {
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNumberField",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": "",
+                                "left": 20,
+                                "top": "",
+                                "width": "93%",
+                                "clearIcon": false,
+                                "inputCls": "textBlack",
+                                "label": "Invoice Price:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "40%"
+                            },
+                            "designerId": "096f8eac-d9e2-4731-b7fa-df0126d0f56a"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer54",
+                                "height": 100
+                            },
+                            "designerId": "3d2e925a-cb80-4f5e-a0fd-5f1aa8e562bf"
+                        },
+                        {
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNumberField",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": "",
+                                "left": 20,
+                                "top": "",
+                                "width": "93%",
+                                "clearIcon": false,
+                                "inputCls": "textBlack",
+                                "label": "Commission: ",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "40%"
+                            },
+                            "designerId": "028838ca-6af8-471a-a175-abd5d7733dc3"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer54",
+                                "height": 100
+                            },
+                            "designerId": "bd48654d-2d95-436e-b965-12f81d2698dd"
+                        },
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel74",
+                                "cls": [
+                                    "staticText"
+                                ],
+                                "docked": "left",
+                                "height": "",
+                                "html": "Total:",
+                                "left": "40%",
+                                "top": "",
+                                "width": "10%"
+                            },
+                            "designerId": "ad362bc2-d2a7-4773-9367-28237715bf40"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer54"
+                            },
+                            "designerId": "74bf943c-8944-4869-8f79-98cd8b5febaa"
+                        },
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel74",
+                                "cls": [
+                                    "staticText"
+                                ],
+                                "docked": "left",
+                                "html": "0.0 ",
+                                "left": "60%",
+                                "maxWidth": "10%",
+                                "minWidth": "10%",
+                                "top": ""
+                            },
+                            "designerId": "9df0fd50-548b-4d8b-b741-df74ad60fb54"
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer54",
+                                "height": 40
+                            },
+                            "designerId": "0ae3ff4a-e04c-4302-905b-ac01623a25c6"
+                        },
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel74",
+                                "cls": [
+                                    "staticText"
+                                ],
+                                "docked": "left",
+                                "html": "excluding GST",
+                                "left": 35,
+                                "top": "",
+                                "width": ""
+                            },
+                            "designerId": "036dcda9-6493-4e2f-8d51-6938b557ee69"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer50"
+            },
+            "designerId": "725b0663-ce68-4f37-818a-ab058c00d0ac"
+        }
+    ]
+}

@@ -1,0 +1,913 @@
+{
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "iconCls": "assets",
+        "title": "Asset",
+        "designer|userClassName": "Asset",
+        "designer|userAlias": "asset"
+    },
+    "id": "ExtBox1-ext-gen55661",
+    "designerId": "57685596-8ff3-4c70-80ae-00e70eb82823",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "iconCls",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "docked": "top",
+                "height": 80,
+                "ui": "light",
+                "title": ""
+            },
+            "designerId": "98229305-59bb-4bff-ab5f-815185e83ef2",
+            "cn": [
+                {
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLabel",
+                        "height": 31,
+                        "html": "Asset",
+                        "padding": 5,
+                        "width": 113
+                    },
+                    "designerId": "f7cccd11-1e3f-49cc-8b9e-fbcd79f2ffb2"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "CancelAction",
+                        "designer|userClassName": "MyButton",
+                        "docked": "right",
+                        "width": 96,
+                        "icon": "images/cancel.png",
+                        "iconCls": "cancel",
+                        "text": "Cancel"
+                    },
+                    "designerId": "813a3c53-8861-4a2c-988a-5ec6fd810999",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton1",
+                        "docked": "right",
+                        "width": 85,
+                        "icon": "images/save.png",
+                        "iconCls": "save",
+                        "text": "Save"
+                    },
+                    "designerId": "893b94fb-1590-4c06-8714-cad14d538bf1"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "PrintAction",
+                        "designer|userClassName": "MyButton2",
+                        "docked": "right",
+                        "width": 86,
+                        "icon": "images/print.png",
+                        "iconCls": "print",
+                        "text": "Print"
+                    },
+                    "designerId": "6250336b-8206-4a85-af23-314c44f2a763",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton3",
+                        "docked": "right",
+                        "width": 89,
+                        "icon": "images/next1.png",
+                        "text": ""
+                    },
+                    "designerId": "7a324d6a-fdc3-4e10-a004-450b6b251bd9"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer64",
+                "height": 10
+            },
+            "designerId": "be8f2730-bc31-4c25-b574-889f75ab95b6"
+        },
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel21",
+                "height": 200,
+                "id": "DatabaseTAB",
+                "width": "100%"
+            },
+            "designerId": "08d2efca-216c-4bf9-9812-e8500c3a5c21",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Database",
+                        "designer|userClassName": "MyContainer114",
+                        "cls": [
+                            "tabBG"
+                        ]
+                    },
+                    "designerId": "b11f28bf-eac3-41eb-b1e1-92a2c93d5df7",
+                    "cn": [
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer64",
+                                "height": 30
+                            },
+                            "designerId": "63bcf6a4-8239-4d76-906e-87e0e5812a55"
+                        },
+                        {
+                            "type": "radiofield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyRadioButton1",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": "",
+                                "left": "1%",
+                                "width": "45%",
+                                "inputCls": "textBlack",
+                                "label": "Car/Commercial",
+                                "labelAlign": "right",
+                                "labelCls": "normalLabelTextRadio",
+                                "labelWidth": "70%",
+                                "name": "assetdatabasegroup",
+                                "checked": true
+                            },
+                            "designerId": "c1f4dbdb-becb-4716-bf5c-2b19f7f0372b"
+                        },
+                        {
+                            "type": "radiofield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyRadioButton1",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": "",
+                                "right": "1%",
+                                "width": "45%",
+                                "inputCls": "textBlack",
+                                "label": "Motor Cycle",
+                                "labelAlign": "right",
+                                "labelCls": "normalLabelTextRadio",
+                                "labelWidth": "70%",
+                                "name": "assetdatabasegroup"
+                            },
+                            "designerId": "958ad919-cde2-4d02-8514-48bfc753c5df"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer64",
+                "height": 30
+            },
+            "designerId": "286fa8a9-08a6-4acd-a231-73a29de190fc"
+        },
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel1",
+                "height": 520,
+                "id": "VehicleTAB",
+                "left": "",
+                "top": "",
+                "ui": "light",
+                "width": "100%"
+            },
+            "designerId": "8c4eb340-778e-4b61-a5b9-2c16c944eab4",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Vehicle",
+                        "designer|userClassName": "MyContainer5",
+                        "cls": [
+                            "tabBG"
+                        ],
+                        "height": "",
+                        "width": ""
+                    },
+                    "designerId": "9c654fc1-54de-4c11-b484-9c3b43b8b35d",
+                    "cn": [
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer70",
+                                "height": 20
+                            },
+                            "designerId": "bab6d4b9-950a-472d-b48c-92eb829aea38"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer2",
+                                "baseCls": "dfsfsfs",
+                                "height": "",
+                                "top": "",
+                                "width": "100%"
+                            },
+                            "designerId": "98815aee-17ae-4e2a-8bc1-d6ad5fb201ba",
+                            "cn": [
+                                {
+                                    "type": "selectfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySelectField3",
+                                        "cls": [
+                                            "mandatoryRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": "",
+                                        "left": "1%",
+                                        "width": "45%",
+                                        "inputCls": "textBlack",
+                                        "label": "Year:",
+                                        "labelCls": "mandatoryLabelText",
+                                        "options": "[\n{value:2003,text:2003},\n{value:2004,text:2004},\n{value:2005,text:2005},\n{value:2006,text:2006},\n{value:2007,text:2007},\n{value:2008,text:2008},{value:2009,text:2009},\n{value:2010,text:2010},\n{value:2011,text:2011},\n{value:2012,text:2012}\n]\n\n"
+                                    },
+                                    "designerId": "28f993d5-f315-4815-9ad3-6eb9ba03412f"
+                                },
+                                {
+                                    "type": "selectfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySelectField3",
+                                        "cls": [
+                                            "mandatoryRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": "",
+                                        "left": "",
+                                        "right": "1%",
+                                        "width": "45%",
+                                        "inputCls": "textBlack",
+                                        "label": "Make:",
+                                        "labelCls": "mandatoryLabelText",
+                                        "options": "[\n{value:\"null\",text:\"Select\"},\n{value:\"Holden\",text:\"Holden\"},\n{value:\"Honda\",text:\"Honda\"},\n{value:\"Isuzu\",text:\"Isuzu\"}\n]\n"
+                                    },
+                                    "designerId": "5460a1b3-41d9-41f3-a1c3-bb1ebc3dfa3f"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer70",
+                                "height": 100
+                            },
+                            "designerId": "839c63c5-2239-456b-a0e6-7baea660c817"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer115",
+                                "baseCls": "xyz",
+                                "height": "",
+                                "top": "",
+                                "width": "100%"
+                            },
+                            "designerId": "1ab92f05-7fa1-4e14-a938-2128988d528c",
+                            "cn": [
+                                {
+                                    "type": "textfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyTextField12",
+                                        "cls": [
+                                            "mandatoryRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": "",
+                                        "left": "1%",
+                                        "width": "31%",
+                                        "inputCls": "textBlack",
+                                        "label": "Model:",
+                                        "labelCls": "mandatoryLabelText",
+                                        "labelWidth": "43%"
+                                    },
+                                    "designerId": "8cae8063-2347-4d8e-b1d8-3b0f8e2ae567"
+                                },
+                                {
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyButton57",
+                                        "docked": "left",
+                                        "height": 75,
+                                        "left": "33%",
+                                        "width": "13%",
+                                        "text": "Model"
+                                    },
+                                    "designerId": "eca09807-43f0-4567-abc2-0a05e36867f6"
+                                },
+                                {
+                                    "type": "textfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyTextField12",
+                                        "cls": [
+                                            "mandatoryRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": "",
+                                        "left": "",
+                                        "right": "1%",
+                                        "width": "45%",
+                                        "inputCls": "textBlack",
+                                        "label": "Registration No:",
+                                        "labelCls": "mandatoryLabelText"
+                                    },
+                                    "designerId": "06b165af-a801-4f24-bb5b-665107f9665f"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer70",
+                                "height": 100
+                            },
+                            "designerId": "d8f8138f-ebd6-48c8-87a4-6d69d916195f"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118"
+                            },
+                            "designerId": "3b7b4c3c-3d8c-4f83-8569-8d27446cc2fc",
+                            "cn": [
+                                {
+                                    "type": "selectfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySelectField3",
+                                        "cls": [
+                                            "mandatoryRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "left": "1%",
+                                        "right": "1%",
+                                        "width": "45%",
+                                        "inputCls": "textBlack",
+                                        "label": "Body Type:",
+                                        "labelCls": "mandatoryLabelText",
+                                        "options": "[\n{value:\"null\",text:\"Select\"},\n{value:\"Sedan\",text:\"Sedan\"},\n{value:\"Utiliy\",text:\"Utility\"}\n]\n\n"
+                                    },
+                                    "designerId": "c7d5cd45-ad1f-4656-8bf6-388633d9a52e"
+                                },
+                                {
+                                    "type": "textfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyTextField12",
+                                        "cls": [
+                                            "mandatoryRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "right": "1%",
+                                        "width": "45%",
+                                        "inputCls": "textBlack",
+                                        "label": "VIN Number:",
+                                        "labelCls": "mandatoryLabelText"
+                                    },
+                                    "designerId": "294edd39-ca6b-4112-b156-329abf079db7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer70",
+                                "height": 120
+                            },
+                            "designerId": "a3b7c8bf-858e-40c7-b188-b5be71f86270"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer116",
+                                "baseCls": "abc",
+                                "height": "",
+                                "left": 20,
+                                "top": ""
+                            },
+                            "designerId": "cf454550-a57a-445c-b2a5-8f1a270298e1",
+                            "cn": [
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "html": "Badge Desc:",
+                                        "width": 124
+                                    },
+                                    "designerId": "2053cf53-8c9f-4258-a9c5-9474b514c5b7"
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer",
+                                        "docked": "left",
+                                        "height": 25,
+                                        "width": 35
+                                    },
+                                    "designerId": "7cb8d064-a15e-426a-9cc9-493f6e883264"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": "",
+                                        "html": "0",
+                                        "left": "",
+                                        "width": ""
+                                    },
+                                    "designerId": "c9ed2d18-554f-4a74-bda7-d469669e4a9d"
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer",
+                                        "docked": "left",
+                                        "height": 25,
+                                        "width": 35
+                                    },
+                                    "designerId": "b6139c24-8d76-427d-8e56-c31821fbe956"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "html": "Cylinders:",
+                                        "width": 124
+                                    },
+                                    "designerId": "ddac56cf-0110-481d-a8ef-0c0c6f2aa52e"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 25,
+                                        "html": "1",
+                                        "width": 83
+                                    },
+                                    "designerId": "3131a023-1860-40b2-bd79-beb4d22d6053"
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer",
+                                        "docked": "left",
+                                        "height": 25,
+                                        "width": 22
+                                    },
+                                    "designerId": "38710596-3bfb-4a4b-a8dc-dd24cb365732"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "html": "Fuel Type:",
+                                        "width": 124
+                                    },
+                                    "designerId": "7766de95-cb52-4cbb-ad3a-886b1fa1af3c"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "html": "0",
+                                        "width": 94
+                                    },
+                                    "designerId": "59da4260-dd00-4386-93e2-171f9c7772d7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer70",
+                                "height": 55
+                            },
+                            "designerId": "bab6d730-6a9b-4083-87ac-12842df5f9b8"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer117",
+                                "baseCls": "abc",
+                                "height": "",
+                                "left": 20,
+                                "top": ""
+                            },
+                            "designerId": "7088076a-669e-45fa-9d6e-c6c5fb1842dd",
+                            "cn": [
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "html": "Transmission:",
+                                        "width": 124
+                                    },
+                                    "designerId": "aac98662-168d-40e4-b3b1-cc596e993a82"
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer",
+                                        "docked": "left",
+                                        "height": 25,
+                                        "width": 35
+                                    },
+                                    "designerId": "dca4a305-6c59-4334-93df-51157951a3f1"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "html": "0",
+                                        "width": 124
+                                    },
+                                    "designerId": "da607949-b043-4929-b7f1-8447dce1f8dd"
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer",
+                                        "docked": "left",
+                                        "height": 25,
+                                        "width": 27
+                                    },
+                                    "designerId": "3a96ad37-543e-4ea2-b07e-34e6974d34f8"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "html": "Redbook DataBase Last Updated:  ",
+                                        "width": 330
+                                    },
+                                    "designerId": "956799df-acf3-4160-9922-cf64ed7e6f2c"
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer",
+                                        "docked": "left",
+                                        "height": 25,
+                                        "width": 27
+                                    },
+                                    "designerId": "f69ca812-1348-4fed-b79e-4c28407d1e03"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel96",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "html": "06/06/2012",
+                                        "width": 124
+                                    },
+                                    "designerId": "2032440d-0037-47e6-89f6-1bb1d6ab0ffb"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer70",
+                                "height": 100
+                            },
+                            "designerId": "1155208f-44e2-4964-bc14-52041bfe41e9"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

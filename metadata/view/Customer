@@ -1,0 +1,391 @@
+{
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "iconCls": "customer",
+        "title": "Customer",
+        "designer|userClassName": "Customer",
+        "designer|userAlias": "customer",
+        "ui": "light",
+        "width": ""
+    },
+    "id": "ExtBox1-ext-gen67377",
+    "designerId": "fa8fe655-8beb-4520-bbe2-f4f5b3f200bd",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "iconCls",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "action",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "docked": "top",
+                "height": 80,
+                "ui": "light",
+                "title": ""
+            },
+            "designerId": "873429ae-64e9-4a4d-8b17-17a97576f3a7",
+            "cn": [
+                {
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLabel",
+                        "height": 31,
+                        "html": "Customer",
+                        "padding": 5,
+                        "width": 113
+                    },
+                    "designerId": "4ba55bcc-932a-4678-a60b-2c69da283ca1"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "CancelAction",
+                        "designer|userClassName": "MyButton",
+                        "docked": "right",
+                        "width": 93,
+                        "icon": "images/cancel.png",
+                        "iconCls": "cancel",
+                        "text": "Cancel"
+                    },
+                    "designerId": "31f6d380-ed0f-4faf-906d-0cb327a2b86c",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton1",
+                        "docked": "right",
+                        "width": 87,
+                        "icon": "images/save.png",
+                        "iconCls": "save",
+                        "text": "Save"
+                    },
+                    "designerId": "8609f7b2-a091-424f-8fee-cb9882a98271"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "PrintAction",
+                        "designer|userClassName": "MyButton2",
+                        "docked": "right",
+                        "width": 88,
+                        "icon": "images/print.png",
+                        "iconCls": "print",
+                        "text": "Print"
+                    },
+                    "designerId": "008e065d-87da-4cdb-a994-91a47f882ec7",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton3",
+                        "docked": "right",
+                        "width": 86,
+                        "icon": "images/next1.png",
+                        "text": null
+                    },
+                    "designerId": "e857b30a-d71e-4388-a144-246c943b4bd6"
+                }
+            ]
+        },
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel26",
+                "height": 530,
+                "id": "genderTAB",
+                "left": "",
+                "top": "",
+                "width": ""
+            },
+            "designerId": "77a75146-e11b-43ab-8eb0-1b5f6b43b675",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": ".",
+                        "designer|userClassName": "MyContainer147",
+                        "cls": [
+                            "tabBG"
+                        ]
+                    },
+                    "designerId": "cb4c8f26-9cbe-4887-ab01-09eefb132820",
+                    "cn": [
+                        {
+                            "type": "selectfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySelectField3",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": "1%",
+                                "top": 10,
+                                "width": "35%",
+                                "inputCls": "textBlack",
+                                "label": "Title:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "40%",
+                                "options": "[\n {value:\"Mr\",text:\"Mr.\"},\n {value:\"Ms\",text:\"Ms.\"},\n {value:\"Mrs\",text:\"Mrs.\"},\n {value:\"D\",text:\"Dr.\"},\n {value:\"P\",text:\"Professor.\"}\n]\n"
+                            },
+                            "designerId": "63039111-7a05-44dd-8385-bfbe2620c26a"
+                        },
+                        {
+                            "type": "radiofield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyRadioButton20",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": "40.5%",
+                                "top": 10,
+                                "width": "27%",
+                                "inputCls": "textBlack",
+                                "label": "Male",
+                                "labelAlign": "right",
+                                "labelCls": "normalLabelTextRadio",
+                                "labelWidth": "60%",
+                                "name": "gendergroup",
+                                "checked": true
+                            },
+                            "designerId": "07711a96-ad38-44e1-97dd-6fc44b36b18d"
+                        },
+                        {
+                            "type": "radiofield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyRadioButton28",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": "",
+                                "right": "1%",
+                                "top": 10,
+                                "width": "27%",
+                                "inputCls": "textBlack",
+                                "label": "Female",
+                                "labelAlign": "right",
+                                "labelCls": "normalLabelTextRadio",
+                                "labelWidth": "60%",
+                                "name": "gendergroup"
+                            },
+                            "designerId": "60bd96ca-fb8b-4a42-b843-5cd71362168c"
+                        },
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField2",
+                                "cls": [
+                                    "mandatoryRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": "1%",
+                                "top": 100,
+                                "width": "98%",
+                                "inputCls": "textBlack",
+                                "label": "First Name:",
+                                "labelCls": "mandatoryLabelText",
+                                "labelWidth": "35%"
+                            },
+                            "designerId": "ea2b302c-dbc0-46a1-8fd7-d5e22c1eeb55"
+                        },
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField2",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": "1%",
+                                "top": 190,
+                                "width": "98%",
+                                "inputCls": "textBlack",
+                                "label": "Middle  Name:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "35%"
+                            },
+                            "designerId": "d42918cf-cf77-4230-b809-7b5bd86e44db"
+                        },
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField2",
+                                "cls": [
+                                    "mandatoryRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": "1%",
+                                "top": 280,
+                                "width": "98%",
+                                "inputCls": "textBlack",
+                                "label": "Last  Name:",
+                                "labelCls": "mandatoryLabelText",
+                                "labelWidth": "35%"
+                            },
+                            "designerId": "0d828665-d039-47a3-b68c-4196d19e82dc"
+                        },
+                        {
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNumberField35",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": "",
+                                "right": "1%",
+                                "top": 370,
+                                "width": "47%",
+                                "inputCls": "textBlack",
+                                "label": "Business #:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "35%"
+                            },
+                            "designerId": "a96051aa-e4c0-4395-bc50-c1702c1c5a18"
+                        },
+                        {
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNumberField36",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "left": "1%",
+                                "top": 370,
+                                "width": "47%",
+                                "inputCls": "textBlack",
+                                "label": "Mobile #:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "35%"
+                            },
+                            "designerId": "d60bdc0d-8525-4ac8-9fe7-27504efa3d89"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

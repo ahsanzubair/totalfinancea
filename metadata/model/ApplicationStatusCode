@@ -1,0 +1,14 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ApplicationStatusCode",
+        "designer|userAlias": "ApplicationStatusCode"
+    },
+    "id": "ExtBox1-ext-gen9312",
+    "designerId": "38ee154c-af90-4117-b671-c3e52e600456"
+}

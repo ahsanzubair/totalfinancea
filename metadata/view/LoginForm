@@ -1,0 +1,332 @@
+{
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|pack": "center",
+        "designer|userClassName": "LoginForm",
+        "designer|userAlias": "LoginForm",
+        "designer|initialView": true,
+        "cls": [
+            "contentBGSquare"
+        ],
+        "height": null,
+        "styleHtmlContent": true,
+        "ui": "dark",
+        "width": null,
+        "layout": "vbox",
+        "scrollable": [
+            "false"
+        ]
+    },
+    "id": "ExtBox1-ext-gen22407",
+    "designerId": "a5b8f4ba-fc6f-4434-8098-83d23fb994b5",
+    "cn": [
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer139",
+                "border": 2,
+                "centered": true,
+                "cls": [
+                    "loginBG"
+                ],
+                "height": 550,
+                "html": "<body background=\"images/bg.png\"></body>",
+                "padding": "",
+                "top": "",
+                "ui": "dark",
+                "width": 735
+            },
+            "designerId": "cf1e5599-1eca-4a1b-9b2e-c005018320b9",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer102",
+                        "height": "",
+                        "left": "22%",
+                        "right": 5,
+                        "top": "30%",
+                        "width": 470
+                    },
+                    "designerId": "4e74f28f-0385-433f-9577-ebb2fdb98bee",
+                    "cn": [
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel127",
+                                "cls": [
+                                    "productName"
+                                ],
+                                "docked": null,
+                                "draggable": [
+                                    "true"
+                                ],
+                                "height": "",
+                                "html": "FINANCE AND INSURANCE APPLICATION",
+                                "id": "",
+                                "left": "",
+                                "padding": "",
+                                "right": "",
+                                "styleHtmlContent": true,
+                                "top": "55%",
+                                "ui": "",
+                                "width": 500
+                            },
+                            "designerId": "f32a81af-40f2-4d05-b971-741908c22175"
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer102",
+                        "height": 45,
+                        "left": 225,
+                        "right": "",
+                        "top": 118
+                    },
+                    "designerId": "039137ae-e03f-40d6-8546-1f1ba391d280",
+                    "cn": [
+                        {
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyLabel127",
+                                "cls": [
+                                    "productVersion"
+                                ],
+                                "docked": "left",
+                                "height": 31,
+                                "html": "<b><font color=\"#FD803D\">Version  1.00.00 build 120923</font></b>",
+                                "styleHtmlContent": true,
+                                "width": 350
+                            },
+                            "designerId": "79eb521e-4605-4c7c-b635-44c09d5cd459"
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer157",
+                        "border": "none",
+                        "cls": [
+                            "textInput"
+                        ],
+                        "height": "",
+                        "left": 130,
+                        "right": "",
+                        "top": 170,
+                        "width": 500
+                    },
+                    "designerId": "b70d14fc-d4f4-45f3-80ff-598621a53d9b",
+                    "cn": [
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTextField15",
+                                "border": "",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "height": 45,
+                                "id": "userID",
+                                "itemId": "userID",
+                                "padding": "",
+                                "style": "",
+                                "width": "100%",
+                                "label": "User Name:",
+                                "labelCls": "normalLabelText ",
+                                "labelWidth": "35%",
+                                "value": [
+                                    "mcopl001"
+                                ]
+                            },
+                            "designerId": "a2bec363-1223-42ed-bd1d-c435cf25e5e1"
+                        },
+                        {
+                            "type": "passwordfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPasswordField",
+                                "border": "",
+                                "bottom": "",
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "height": 45,
+                                "padding": 5,
+                                "width": "100%",
+                                "label": "Password:",
+                                "labelCls": "normalLabelText ",
+                                "labelWidth": "35%",
+                                "value": [
+                                    "flying098"
+                                ]
+                            },
+                            "designerId": "eff2b497-245a-44c5-bb29-8c8593dd17b0"
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer102",
+                        "left": 390,
+                        "right": "7%",
+                        "top": 400
+                    },
+                    "designerId": "8ba3f879-fafa-426d-bc89-cfec3bab9c73",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "action": "LoginAction",
+                                "designer|userClassName": "MyButton70",
+                                "cls": "",
+                                "docked": "left",
+                                "height": 56,
+                                "id": "loginButton",
+                                "left": null,
+                                "ui": "confirm",
+                                "width": 234,
+                                "text": "Login"
+                            },
+                            "designerId": "4c7ac0ea-c2f7-4543-b0de-d1aa3cd3dc2e",
+                            "customConfigs": [
+                                {
+                                    "group": "(Custom Properties)",
+                                    "name": "action",
+                                    "type": "string"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyImage12",
+                        "height": 86,
+                        "left": 280,
+                        "top": 20,
+                        "width": 86,
+                        "src": "images/logo_.png"
+                    },
+                    "designerId": "57325f9f-a4e6-4043-8009-ac0286b91853"
+                },
+                {
+                    "type": "image",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyImage13",
+                        "height": 63,
+                        "id": "logoText",
+                        "left": 380,
+                        "top": 30,
+                        "width": 149,
+                        "src": "images/logoText.png"
+                    },
+                    "designerId": "f1552db4-7645-43cf-a789-64289d7b679e"
+                },
+                {
+                    "type": "image",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyImage14",
+                        "bottom": 40,
+                        "height": 200,
+                        "left": 15,
+                        "top": 150,
+                        "width": 50,
+                        "src": "images/sideLock.png"
+                    },
+                    "designerId": "4bd85f82-864f-4bb2-bb6b-114410c1efb4"
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onFormpanelShow",
+                "fn": "onFormpanelShow",
+                "implHandler": [
+                    "Ext.getCmp('userID').focus('', 10);"
+                ],
+                "name": "show"
+            },
+            "designerId": "df903bd9-9c01-4358-a9d5-809905c7c9d9"
+        }
+    ]
+}

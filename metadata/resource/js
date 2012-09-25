@@ -1,0 +1,14 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "utils/CalculateTotalRentalAmount.js",
+        "id": "CalculateTotalRentalAmount"
+    },
+    "id": "ExtBox1-ext-gen5890",
+    "designerId": "21abe347-5b36-4fb8-9623-f7933638a07d"
+}

@@ -1,0 +1,157 @@
+{
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "iconCls": null,
+        "title": null,
+        "designer|userClassName": "MainScreenComponent",
+        "designer|userAlias": "MainScreenComponent",
+        "ui": "light",
+        "scrollable": [
+            "vertical"
+        ]
+    },
+    "id": "ExtBox1-ext-gen19816",
+    "designerId": "a86ca0dd-7a67-4ca9-a458-c3c589cbfb4d",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "iconCls",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "docked": "top",
+                "height": 80,
+                "ui": "light"
+            },
+            "designerId": "d2da9cd9-d96d-4ec1-9885-c898009c348a",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "LogoutAction",
+                        "designer|userClassName": "MyButton86",
+                        "height": 78,
+                        "width": 145,
+                        "icon": "images/logout.png",
+                        "iconCls": "logout",
+                        "text": "Logout"
+                    },
+                    "designerId": "b3d119bf-c6f1-443f-802d-97b0cf234381",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "OpenDealAction",
+                        "designer|userClassName": "MyButton",
+                        "cls": null,
+                        "docked": "right",
+                        "width": 145,
+                        "icon": "images/opendeal1.png",
+                        "iconCls": "opendeal",
+                        "text": "Open Deal"
+                    },
+                    "designerId": "cea95092-461e-4b55-8f89-c17ab3f35e02",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "OpenQuoteAction",
+                        "designer|userClassName": "MyButton1",
+                        "cls": "",
+                        "docked": "right",
+                        "width": 145,
+                        "icon": "images/openquote.png",
+                        "iconCls": "openquote",
+                        "text": "Open Quote"
+                    },
+                    "designerId": "2c631b94-fac8-461d-a5f6-839f5756f77c",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "NewQuoteAction",
+                        "designer|userClassName": "MyButton2",
+                        "border": "",
+                        "cls": null,
+                        "docked": "right",
+                        "style": "whiteBorder",
+                        "width": 145,
+                        "icon": "images/newquote.png",
+                        "iconCls": "newquote",
+                        "iconMaskCls": null,
+                        "text": "New Quote"
+                    },
+                    "designerId": "ed74ec31-02a1-4105-844b-62373375b235",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

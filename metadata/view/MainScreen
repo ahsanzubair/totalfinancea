@@ -1,0 +1,68 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "tabBarPosition": "bottom",
+        "handler": null,
+        "plugins": null,
+        "designer|userClassName": "MainScreen",
+        "designer|userAlias": "MainScreen",
+        "docked": null,
+        "id": null,
+        "styleHtmlContent": true,
+        "ui": "light",
+        "width": null,
+        "defaultType": "optimized-tab",
+        "modal": false
+    },
+    "id": "ExtBox1-ext-gen55635",
+    "designerId": "e4a0673c-0c8a-477d-97d8-593dbaf4a9d8",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "tabBarPosition",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "handler",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "plugins",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "initialize",
+                "fn": "initialize",
+                "implHandler": [
+                    "this.callParent(arguments);\r",
+                    "\r",
+                    "this.add([\r",
+                    "\r",
+                    "{xtype: 'quote'},\r",
+                    "{xtype: 'insurance'},    \r",
+                    "{xtype: 'customer'}\r",
+                    "\r",
+                    "\r",
+                    "]);"
+                ]
+            },
+            "designerId": "46a35ae2-1b0f-492e-8bdc-deafcdd24f50"
+        }
+    ]
+}

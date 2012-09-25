@@ -1,0 +1,1618 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Application",
+        "designer|userAlias": "Application"
+    },
+    "id": "ExtBox1-ext-gen4376",
+    "designerId": "6d8d9a94-9ee1-44fc-82b7-2f59765dfe83",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField",
+                "name": "agentID",
+                "type": "string"
+            },
+            "designerId": "b227c92d-535c-4f39-92e9-cc77c86f5099"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField1",
+                "name": "fsgID",
+                "type": "string"
+            },
+            "designerId": "e90108c7-8c57-4d0d-b104-06ff20a6a29d"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField2",
+                "name": "applicationID",
+                "type": "string"
+            },
+            "designerId": "e3f365d9-7ee6-4936-9334-15d7b0ea869b"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField3",
+                "name": "applicationIndicator",
+                "defaultValue": [
+                    "Q"
+                ],
+                "type": "string"
+            },
+            "designerId": "d5142e9c-7623-433f-bb4d-3572bfcdf9be"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField4",
+                "name": "departmentID",
+                "type": "string"
+            },
+            "designerId": "49628765-9f04-4ac7-8ece-0b912e84e855"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField5",
+                "name": "policyNumber",
+                "type": "string"
+            },
+            "designerId": "382fac4a-d8b2-438f-86ff-0aa6706180bd"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField6",
+                "name": "version",
+                "type": "int"
+            },
+            "designerId": "be8b2657-45fc-4b06-b431-e05cd48519c6"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "applicationStatusCode",
+                "designer|userClassName": "MyHasOneAssociation",
+                "model": "ApplicationStatusCode",
+                "primaryKey": null,
+                "getterName": null,
+                "foreignKey": null,
+                "setterName": null
+            },
+            "designerId": "65357ac8-2046-4d94-9250-ca894d1c6f2d",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField7",
+                "name": "businessManagerID",
+                "type": "string"
+            },
+            "designerId": "5751ef60-c40a-4ed4-b56b-886ad60c2bed"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "cbiPremium",
+                "designer|userClassName": "MyHasOneAssociation1",
+                "model": "CBIPremium"
+            },
+            "designerId": "5d901c73-1904-4104-abc0-8f2ab9213eeb",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField8",
+                "name": "cciDiscountAmount",
+                "type": "int"
+            },
+            "designerId": "80f9db10-5d3c-43c2-ab63-eed11458aadc"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "epiPremium",
+                "designer|userClassName": "MyHasOneAssociation2",
+                "model": "EPIPremium"
+            },
+            "designerId": "e3604658-827c-4fe9-882f-b16f33ba3cd3",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "extraEPIPremiumTAS",
+                "designer|userClassName": "MyHasOneAssociation3",
+                "model": "EPIPremium"
+            },
+            "designerId": "f8901c6f-4378-490c-ac4d-76ced9a39e19",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "extraLTPPremiumTAS",
+                "designer|userClassName": "MyHasOneAssociation4",
+                "model": "LTPPremium"
+            },
+            "designerId": "e847cbf8-833b-45fb-aab4-e09959c3b429",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ltpPremium",
+                "designer|userClassName": "MyHasOneAssociation5",
+                "model": "LTPPremium"
+            },
+            "designerId": "07b0ebd6-67d6-49f1-b61d-f9d74aa574a0",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ewPremium",
+                "designer|userClassName": "MyHasOneAssociation6",
+                "model": "EWPremium"
+            },
+            "designerId": "16b86dec-fb5f-4701-adb1-bf111c9256f1",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "tnwPremium",
+                "designer|userClassName": "MyHasOneAssociation7",
+                "model": "EWPremium"
+            },
+            "designerId": "ec56c163-3997-43c1-9b38-116b7e3006e3",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "applicationFinanceCompany",
+                "designer|userClassName": "MyHasOneAssociation8",
+                "model": "ApplicationFinanceCompany"
+            },
+            "designerId": "7beed9ee-bfc9-4d01-b6cb-dfc48cd0aa52",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField9",
+                "name": "financeProductID",
+                "type": "string"
+            },
+            "designerId": "f3204034-a528-4c7a-a92f-6f0483b54d9b"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "salePerson",
+                "designer|userClassName": "MyHasOneAssociation9",
+                "model": "AgentSalePerson"
+            },
+            "designerId": "9f4cea82-c3bb-41f1-a6c3-beeb1427df8f",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "disabilityCCIPremium",
+                "designer|userClassName": "MyHasOneAssociation10",
+                "model": "CCIPremium"
+            },
+            "designerId": "412e17f1-a0e2-47b2-a2f5-ab7b905dbb7f",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "applicationPremiumFinanceCompany",
+                "designer|userClassName": "MyHasOneAssociation11",
+                "model": "ApplicationFinanceCompany"
+            },
+            "designerId": "d3dfcca8-7b0a-465e-800e-3f631cbc7bb9",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField10",
+                "name": "cciPremium",
+                "type": "auto"
+            },
+            "designerId": "33ca1085-d593-41d6-841e-dd0d714a1fb5"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "fee",
+                "designer|userClassName": "MyHasOneAssociation12",
+                "model": "Fee"
+            },
+            "designerId": "613368d1-3951-4519-ae6d-b3921e9a0d85",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "finance",
+                "designer|userClassName": "MyHasOneAssociation13",
+                "model": "Finance"
+            },
+            "designerId": "235cb116-cfc0-4afa-a735-4fa6e3eb8413",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "customerCorporate",
+                "designer|userClassName": "MyHasOneAssociation14",
+                "model": "CustomerCorporate"
+            },
+            "designerId": "ae45609a-3dce-4e1a-913a-0cf36edf2e00",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "customerIndividualOne",
+                "designer|userClassName": "MyHasOneAssociation15",
+                "model": "CustomerIndividual"
+            },
+            "designerId": "4f0860cb-f1b7-4732-b654-a809ce05544e",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "customerIndividualTwo",
+                "designer|userClassName": "MyHasOneAssociation16",
+                "model": "CustomerIndividual"
+            },
+            "designerId": "aa23e2bb-4dcb-43e4-a335-e3bee9ae6385",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "involUnEmploymentCCIPremium",
+                "designer|userClassName": "MyHasOneAssociation17",
+                "model": "CCIPremium"
+            },
+            "designerId": "ec185553-7d0c-4f35-b5a8-22ba5080bf22",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "lifeCCIPremium",
+                "designer|userClassName": "MyHasOneAssociation18",
+                "model": "CCIPremium"
+            },
+            "designerId": "1752b037-d913-4523-afe0-6dd06cb91059",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField11",
+                "name": "loanContractNumber",
+                "type": "string"
+            },
+            "designerId": "5da0a230-df9c-4373-9306-c0257b051067"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField12",
+                "name": "loanStartDate",
+                "type": "date"
+            },
+            "designerId": "bc5192f5-9a3f-4602-967c-6cddb811ea9e"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "traumaCCIPremium",
+                "designer|userClassName": "MyHasOneAssociation19",
+                "model": "CCIPremium"
+            },
+            "designerId": "64b13662-d65b-4a41-a74d-af65ea8d306b",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField13",
+                "name": "creationDate",
+                "type": "date"
+            },
+            "designerId": "ffc10360-8516-43a5-ba34-8972aeac1b9a"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField14",
+                "name": "externalApplicationNumber",
+                "type": "string"
+            },
+            "designerId": "b45d4281-a847-49e3-aa08-14dea8f0b660"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField15",
+                "name": "versionNumber",
+                "type": "int"
+            },
+            "designerId": "c98bc91b-59f4-43cd-9a2b-e025a4bfea74"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField16",
+                "name": "insuranceOnlyIndicator",
+                "defaultValue": [
+                    "F"
+                ],
+                "type": "string"
+            },
+            "designerId": "3c5e44e4-e62c-4d40-9bf1-735d688938cc"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "mvPremium",
+                "designer|userClassName": "MyHasOneAssociation20",
+                "model": "MVPremium"
+            },
+            "designerId": "f721c1f3-9bcf-486f-b730-3e3b7230b802",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField17",
+                "name": "epiDiscountAmount",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "29b0e80d-3bac-4ea2-a89b-9af5d0cde736"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField18",
+                "name": "mepiDiscountAmount",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "e8faa5f2-a917-4ff3-8688-0c840e8a13e7"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField19",
+                "name": "cbiDiscountAmount",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "d5e6e0ae-8316-47be-ad8c-c8b764bddca7"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField20",
+                "name": "ewDiscountAmount",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "15dbcaae-fa7d-4d5a-aae9-576065454f92"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "mepiPremium",
+                "designer|userClassName": "MyHasOneAssociation21",
+                "model": "MEPIPremium"
+            },
+            "designerId": "45dfcd12-72e7-452a-bfe4-5dbcbfb50812",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "dealData",
+                "designer|userClassName": "MyHasOneAssociation22",
+                "model": "DealData"
+            },
+            "designerId": "3ec02ffc-5332-418c-ba4c-79b042554b92",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField21",
+                "name": "commentText",
+                "type": "string"
+            },
+            "designerId": "a8756490-3fb9-47bd-8d0c-228094c26b31"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField22",
+                "name": "conversionComment",
+                "type": "string"
+            },
+            "designerId": "971dcfc9-f510-4ff1-a5e0-32d84163b7db"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField23",
+                "name": "cciPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "f9eaa657-b2e3-48d3-83ef-38421a58ae33"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField24",
+                "name": "cbiPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "15a9f330-e5ea-4256-b0c8-a54565e01f55"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField25",
+                "name": "epiPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "867f5ee5-3df3-473f-bfbf-122dc5849db7"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField26",
+                "name": "mepiPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "92cfa688-6591-427d-9058-f757f47bb142"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField27",
+                "name": "wtyPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "40602d1b-1b36-4951-9eed-767991d7c21e"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField28",
+                "name": "wtyrPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "ec938e24-4d42-453d-98b6-a96f00668169"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField29",
+                "name": "vipPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "a2b9c164-b5f9-48d8-88cf-6baa60520e76"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField30",
+                "name": "tnwPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "899f4961-5eca-4c99-b9b1-bcb144cc9c6d"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField31",
+                "name": "ltpPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "2327099f-e530-4a6e-b1f8-346dfdf73486"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField32",
+                "name": "cbiUnderwrittenIndicator",
+                "defaultValue": [
+                    "U"
+                ],
+                "type": "string"
+            },
+            "designerId": "819886ac-0bf8-4ac3-9df6-78004ab54318"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField32",
+                "name": "cciUnderwrittenIndicator",
+                "defaultValue": [
+                    "U"
+                ],
+                "type": "string"
+            },
+            "designerId": "b4180bb4-aff0-4d60-bb88-6b0a7af9930e"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField32",
+                "name": "epiUnderwrittenIndicator",
+                "defaultValue": [
+                    "U"
+                ],
+                "type": "string"
+            },
+            "designerId": "a04dfe32-03c5-4b80-a082-4c6e2ec0f3b5"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField32",
+                "name": "mepiUnderwrittenIndicator",
+                "defaultValue": [
+                    "U"
+                ],
+                "type": "string"
+            },
+            "designerId": "b7e2857e-2313-4609-a141-3f5421bb8928"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField32",
+                "name": "wtyUnderwrittenIndicator",
+                "defaultValue": [
+                    "U"
+                ],
+                "type": "string"
+            },
+            "designerId": "0c047ab5-6df0-4f94-a6ba-535ced60143f"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField32",
+                "name": "vipUnderwrittenIndicator",
+                "defaultValue": [
+                    "U"
+                ],
+                "type": "string"
+            },
+            "designerId": "a86b60fb-5349-48de-ac2e-4c7065980dd1"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField32",
+                "name": "tnwUnderwrittenIndicator",
+                "defaultValue": [
+                    "U"
+                ],
+                "type": "string"
+            },
+            "designerId": "67297358-02d5-474f-beae-3c4167bc6555"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField32",
+                "name": "ltpUnderwrittenIndicator",
+                "defaultValue": [
+                    "U"
+                ],
+                "type": "string"
+            },
+            "designerId": "1c8134cf-3ae0-4527-a35b-21abf85a6806"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "extraCBIPremiumTAS",
+                "designer|userClassName": "MyHasOneAssociation23",
+                "model": "CBIPremium"
+            },
+            "designerId": "d9e97c5a-be64-4d9b-9dfd-3630e779e50d",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "extraMEPIPremiumTAS",
+                "designer|userClassName": "MyHasOneAssociation24",
+                "model": "MEPIPremium"
+            },
+            "designerId": "7a8e4fdd-2521-43c5-b930-fec923d1a93e",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField40",
+                "name": "approvalNumber",
+                "defaultValue": [
+                    "''"
+                ],
+                "type": "string"
+            },
+            "designerId": "5c81892a-9d40-455a-8a8c-5a6ce3ed2b88"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField41",
+                "name": "approvalRejectionIndicator",
+                "defaultValue": [
+                    "N"
+                ],
+                "type": "string"
+            },
+            "designerId": "173a3ecc-3a5b-4cdf-bf6d-a4f713900f7e"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "otherInsurance",
+                "designer|userClassName": "MyHasOneAssociation25",
+                "model": "OtherInsurance"
+            },
+            "designerId": "6c804bac-17be-4b27-8161-c3a8acd226b5",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField42",
+                "name": "fastPrintIndicator",
+                "defaultValue": [
+                    "false"
+                ],
+                "type": "boolean"
+            },
+            "designerId": "95c35856-dfd3-4505-86a3-dbc7d3047185"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField43",
+                "name": "loanInNameOf",
+                "defaultValue": [
+                    "''"
+                ],
+                "type": "string"
+            },
+            "designerId": "e9913120-8e06-44c7-8957-f49fadfeaff9"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField44",
+                "name": "rateSetID",
+                "type": "int"
+            },
+            "designerId": "32b92950-fc8d-43da-8842-1d3257ac8f3c"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField45",
+                "name": "applicationIDFrom",
+                "type": "string"
+            },
+            "designerId": "187d1883-4ed4-4f6d-9e84-2a15f5f201e7"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField46",
+                "name": "archiveIndicator",
+                "type": "string"
+            },
+            "designerId": "e6f46439-81ef-44ac-a653-59264359266b"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField47",
+                "name": "compositeLiteIndicator",
+                "type": "boolean"
+            },
+            "designerId": "df3f3783-7d0b-4b74-8152-6bab0562eb19"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField48",
+                "name": "createdByWS",
+                "type": "boolean"
+            },
+            "designerId": "b90771dc-c158-4921-940b-aa48a2d3bad3"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField49",
+                "name": "referenceNumber",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "b456af84-3f02-4b75-a7b6-3ac49a033ce2"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "vipPremium",
+                "designer|userClassName": "MyHasOneAssociation26",
+                "model": "VIPPremium"
+            },
+            "designerId": "9bd1fcd2-7598-4104-851a-2b314439945f",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "extraVIPPremiumTAS",
+                "designer|userClassName": "MyHasOneAssociation27",
+                "model": "VIPPremium"
+            },
+            "designerId": "0c7443b0-cb58-462c-a20c-0b76dc34e130",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField50",
+                "name": "tpRetailPrice",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "376bf7de-0162-467a-9b6e-97ae7335b89b"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField50",
+                "name": "tpCommissionAmount",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "b1438ef3-b47e-4380-acde-9c6fadfc4a31"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField50",
+                "name": "totalCommissionAmount",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "cd3caa24-f643-46c9-b04b-344818d37ea5"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField50",
+                "name": "insCommissionAmount",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "08223992-fb56-4381-bb0a-e4ff36f216fb"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField54",
+                "name": "defaultBMStateCode",
+                "type": "string"
+            },
+            "designerId": "329418f4-52d7-4818-9400-daf4e62f85fc"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField50",
+                "name": "cash",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "ed06e229-96c7-4220-a707-431b55e83b3c"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField50",
+                "name": "creditCard",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "04b9bf33-0d22-47e1-a168-b6fa9ea5220c"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField50",
+                "name": "cheque",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "d154ded3-5efd-4dbe-8b28-b95a15462418"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField58",
+                "name": "forPurpose",
+                "defaultValue": [
+                    "''"
+                ],
+                "type": "string"
+            },
+            "designerId": "9d956120-dd12-4730-813d-7ec6d9cef431"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField59",
+                "name": "customerProfileType",
+                "type": "string"
+            },
+            "designerId": "f6e75a7c-b255-4b75-a3fc-bc6920b284db"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField59",
+                "name": "saleType",
+                "defaultValue": [
+                    "''"
+                ],
+                "type": "string"
+            },
+            "designerId": "352c6321-f582-452d-b455-4a68b1a77313"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField61",
+                "name": "locumID",
+                "type": "string"
+            },
+            "designerId": "a234d327-dcb7-400d-9b9d-c0d8510c356c"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField62",
+                "name": "marginRate",
+                "defaultValue": [
+                    "0"
+                ],
+                "type": "int"
+            },
+            "designerId": "8442b3a8-895f-415b-85b7-9d4ecab59ae9"
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField63",
+                "name": "menuSellingProfile",
+                "type": "auto"
+            },
+            "designerId": "17406aaa-ee2f-4657-b34e-69877f38eafa"
+        }
+    ]
+}

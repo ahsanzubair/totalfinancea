@@ -1,0 +1,14 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CCIPremium",
+        "designer|userAlias": "CCIPremium"
+    },
+    "id": "ExtBox1-ext-gen19941",
+    "designerId": "06531777-99f6-420f-8534-8044b9e81893"
+}

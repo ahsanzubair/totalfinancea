@@ -1,0 +1,2833 @@
+{
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "iconCls": "insurance",
+        "title": "Insurance",
+        "designer|userClassName": "Insurance",
+        "designer|userAlias": "insurance",
+        "height": null,
+        "top": "",
+        "ui": "light",
+        "scrollable": [
+            "'vertical'"
+        ]
+    },
+    "id": "ExtBox1-ext-gen6074",
+    "designerId": "1a1c704e-3a9b-406b-a7b6-e58b96efe45a",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "iconCls",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "docked": "top",
+                "height": 80,
+                "ui": "light",
+                "title": ""
+            },
+            "designerId": "1e6694e0-9be4-494c-8d3a-875a0d7d3814",
+            "cn": [
+                {
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLabel",
+                        "height": 31,
+                        "html": "CCI",
+                        "padding": 5,
+                        "width": 113
+                    },
+                    "designerId": "e27d7c50-ea45-4298-88da-6859c29ce32f"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "CancelAction",
+                        "designer|userClassName": "MyButton",
+                        "docked": "right",
+                        "width": 94,
+                        "icon": "images/cancel.png",
+                        "iconCls": "cancel",
+                        "text": "Cancel"
+                    },
+                    "designerId": "d646dc32-29eb-4f8d-a0ce-df49503a4ac3",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton1",
+                        "docked": "right",
+                        "width": 88,
+                        "icon": "images/save.png",
+                        "iconCls": "save",
+                        "text": "Save"
+                    },
+                    "designerId": "741b801e-ee06-4df8-a025-cc48766f7833"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "PrintAction",
+                        "designer|userClassName": "MyButton2",
+                        "docked": "right",
+                        "width": 86,
+                        "icon": "images/print.png",
+                        "iconCls": "print",
+                        "text": "Print"
+                    },
+                    "designerId": "b60cfca4-9db8-4c06-b4e6-c664ba79436d",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyButton3",
+                        "docked": "right",
+                        "width": 89,
+                        "icon": "images/next1.png",
+                        "text": null
+                    },
+                    "designerId": "021a29a2-9221-4611-a8d3-ac78ae0ba4b6"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer42",
+                "height": 45,
+                "top": null,
+                "width": "100%"
+            },
+            "designerId": "b7a4b3ec-8523-447a-9cd0-d5867c596d59",
+            "cn": [
+                {
+                    "type": "selectfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MySelectField9",
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "left": ".5%",
+                        "width": "45%",
+                        "inputCls": "textBlack",
+                        "label": "Badge:",
+                        "labelCls": "normalLabelText",
+                        "name": "badgepremium",
+                        "options": "[\n {value:\"A\",text:\"A\"},\n {value:\"M\",text:\"M\"}\n]\n"
+                    },
+                    "designerId": "1b9bc7ba-575d-4c6d-af7f-f0bd2b7593de"
+                },
+                {
+                    "type": "numberfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumberField15",
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "left": "55%",
+                        "width": "38%",
+                        "inputCls": "textBlack",
+                        "label": "Premium: $",
+                        "labelCls": "normalLabelText",
+                        "labelWidth": "35%",
+                        "name": "badgepremium"
+                    },
+                    "designerId": "4ed150ef-6e5c-4931-aa10-f2b9be1b76f4"
+                },
+                {
+                    "type": "image",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyImage17",
+                        "docked": "left",
+                        "height": 25,
+                        "html": "",
+                        "left": null,
+                        "maxWidth": "11%",
+                        "minWidth": "11%",
+                        "right": "-4%",
+                        "top": 10,
+                        "width": "11%",
+                        "src": "images/statusfalse.png"
+                    },
+                    "designerId": "c01e2d01-e3d0-407b-8f39-78c2cab9883b"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer49",
+                "height": 60
+            },
+            "designerId": "844c6e09-b1fa-4717-9550-ce79f063918d"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer114",
+                "height": 45,
+                "top": null,
+                "width": "100%"
+            },
+            "designerId": "1d16da66-e4fb-4574-8ca2-c0233e83ad88",
+            "cn": [
+                {
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyRadioButton46",
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "left": ".5%",
+                        "width": "45%",
+                        "inputCls": "textBlack",
+                        "label": "Private",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "70%",
+                        "name": "privatebusiness",
+                        "checked": true
+                    },
+                    "designerId": "865b7510-986d-49bb-aaa9-75a127ef663c"
+                },
+                {
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyRadioButton47",
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "left": "55%",
+                        "right": "",
+                        "width": "38%",
+                        "inputCls": "textBlack",
+                        "label": "Business",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "65%",
+                        "name": "privatebusiness"
+                    },
+                    "designerId": "37d4fc81-5eb9-4cd8-9019-822a3ea22bc9"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer49",
+                "height": 60
+            },
+            "designerId": "efa7189f-22ac-41fa-8407-54285c359934"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer115",
+                "docked": null,
+                "height": 660,
+                "top": null,
+                "width": "100%"
+            },
+            "designerId": "d843b4e6-2df6-43a1-a1bd-595c60bc599b",
+            "cn": [
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTabPanel10",
+                        "height": 630,
+                        "id": "InsuranceProductTAB",
+                        "left": ".5%",
+                        "width": "45%"
+                    },
+                    "designerId": "43372cfd-0456-405f-b3a8-c734706c6502",
+                    "cn": [
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Insurance Product",
+                                "designer|userClassName": "MyContainer132",
+                                "cls": [
+                                    "tabBG"
+                                ]
+                            },
+                            "designerId": "396ba2ce-97f2-4577-9461-864e716447f2",
+                            "cn": [
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer95",
+                                        "height": 20
+                                    },
+                                    "designerId": "0213590a-cd8b-488c-aa35-acb94a6b679d"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": "",
+                                        "width": "100%"
+                                    },
+                                    "designerId": "0fa7f396-661c-4412-a38e-f512d1842ddc",
+                                    "cn": [
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox16",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "cbInput"
+                                                ],
+                                                "docked": "left",
+                                                "left": ".5%",
+                                                "width": "45%",
+                                                "inputCls": "",
+                                                "label": "Joint Cover",
+                                                "labelAlign": "right",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "38bc101e-6ad6-4399-b3f4-c6b54f156438"
+                                        },
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox17",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "cbInput"
+                                                ],
+                                                "docked": "left",
+                                                "right": ".5%",
+                                                "width": "45%",
+                                                "label": "Balloon Cover",
+                                                "labelAlign": "right",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "85cb6417-77c1-48ea-8ec9-f54b4a9c306f"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer95",
+                                        "height": 100
+                                    },
+                                    "designerId": "dbab6eab-9dbe-4276-bb67-e4c13687e8d7"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": "",
+                                        "width": "100%"
+                                    },
+                                    "designerId": "5d1ae456-c995-45a6-8c6a-31aab8522e30",
+                                    "cn": [
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox16",
+                                                "cls": [
+                                                    "cbInput"
+                                                ],
+                                                "docked": "left",
+                                                "width": "70%",
+                                                "label": "Life:",
+                                                "labelAlign": "right",
+                                                "labelCls": "",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "e1a8034f-cb05-47a9-a0ad-ff015d40ea1b"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel124",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "$ 0.00 ",
+                                                "right": "5%",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "478e510e-edd0-4b0c-acb1-3fa492d23e7f"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer95",
+                                        "height": 20
+                                    },
+                                    "designerId": "c43527ba-9781-46eb-a04e-4e37bc4dbae3"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": "",
+                                        "width": "100%"
+                                    },
+                                    "designerId": "96428736-a73b-4e5a-ac1e-fef1a50fb56e",
+                                    "cn": [
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox16",
+                                                "cls": [
+                                                    "cbInput"
+                                                ],
+                                                "docked": "left",
+                                                "width": "70%",
+                                                "label": "Trauma:",
+                                                "labelAlign": "right",
+                                                "labelCls": "tranBG",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "8fd2e51d-3a4a-496e-ace6-5039e721d34d"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel124",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "$ 0.00 ",
+                                                "right": "5%",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "ee6e86a5-1641-4a1a-9e27-8643b133d5a2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer95",
+                                        "height": 20
+                                    },
+                                    "designerId": "cc06c943-b26f-41b0-8b2f-caade8495bd1"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": "",
+                                        "width": "100%"
+                                    },
+                                    "designerId": "dff81cc4-3399-4438-85f6-99b3214c1a35",
+                                    "cn": [
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox16",
+                                                "cls": [
+                                                    "cbInput"
+                                                ],
+                                                "docked": "left",
+                                                "width": "70%",
+                                                "label": "Disability",
+                                                "labelAlign": "right",
+                                                "labelCls": "",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "842df5d5-114d-4814-a497-622b8b1d1a91"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel124",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "$ 0.00 ",
+                                                "right": "5%",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "5a07eaf9-3c14-49fa-b8b1-159387685746"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer95",
+                                        "height": 20
+                                    },
+                                    "designerId": "27e36af2-b4a7-4207-a5dc-f1a650cd4f35"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": "",
+                                        "width": "100%"
+                                    },
+                                    "designerId": "f77cc601-6b69-4421-b81e-3b71dbb2d0f5",
+                                    "cn": [
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox16",
+                                                "cls": [
+                                                    "cbInput"
+                                                ],
+                                                "docked": "left",
+                                                "width": "70%",
+                                                "label": "Involuntary Unemployment:",
+                                                "labelAlign": "right",
+                                                "labelCls": "tranBG",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "6977c582-003b-44ba-95f3-e8c1ba0b5cb9"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel124",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "$ 0.00 ",
+                                                "right": "5%",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "e16f5cbb-8621-4a41-8f2d-950e752a00cc"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer95",
+                                        "height": 20
+                                    },
+                                    "designerId": "b03fd4c7-efe4-49b3-b59c-a44b1e4f2036"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": "",
+                                        "width": "100%"
+                                    },
+                                    "designerId": "f3674223-32ae-4984-8fc3-cd6d1cb1c45f",
+                                    "cn": [
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox16",
+                                                "cls": [
+                                                    "cbInput"
+                                                ],
+                                                "docked": "left",
+                                                "width": "70%",
+                                                "label": "None:",
+                                                "labelAlign": "right",
+                                                "labelCls": "tranBG",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "f9f4c15b-8841-4387-91a8-3eaf521265c7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer95",
+                                        "height": 20
+                                    },
+                                    "designerId": "593f7faf-65c5-4d08-b278-1ff57e789a46"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyContainer136",
+                        "docked": "left",
+                        "height": 650,
+                        "left": "46%",
+                        "width": "10%"
+                    },
+                    "designerId": "159518ca-4fae-4c20-b595-fff31c4de691",
+                    "cn": [
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": 170,
+                                "width": 150
+                            },
+                            "designerId": "bd7e6db8-94f7-410f-8440-a6df137ee3ef"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": 45,
+                                "width": 150
+                            },
+                            "designerId": "b771b2eb-6052-4e74-ad95-a568e79ab558",
+                            "cn": [
+                                {
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyButton75",
+                                        "docked": "left",
+                                        "height": 30,
+                                        "width": "50%",
+                                        "text": "i"
+                                    },
+                                    "designerId": "2d22ac0b-b62b-454c-9cf9-3fef6e7443d9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": "",
+                                "left": 0,
+                                "top": 250,
+                                "width": 150
+                            },
+                            "designerId": "c9d958c7-cddc-4a5b-8040-aec48a572266",
+                            "cn": [
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel128",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "html": "RS: 67",
+                                        "left": 3,
+                                        "styleHtmlContent": true
+                                    },
+                                    "designerId": "56354247-f09c-420d-8a74-29bff0fe850f"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel128",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "html": "RC: 2767",
+                                        "left": "",
+                                        "styleHtmlContent": true,
+                                        "top": 50
+                                    },
+                                    "designerId": "9ed6fd68-4639-41a7-8542-321791814e25"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTabPanel10",
+                        "height": 630,
+                        "id": "COPLinsuranceTAB",
+                        "right": ".5%",
+                        "width": "45%"
+                    },
+                    "designerId": "8b9ae1e4-4735-4134-9002-354f80bc6d5d",
+                    "cn": [
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "COPL Insurance",
+                                "designer|userClassName": "MyContainer132",
+                                "cls": [
+                                    "tabBG"
+                                ]
+                            },
+                            "designerId": "f7b568d6-53c1-409d-b497-e3131d8cddcc",
+                            "cn": [
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": 45,
+                                        "width": "100%"
+                                    },
+                                    "designerId": "fb3a6d1b-5e5a-42b9-bb23-4c09fd57e8c2",
+                                    "cn": [
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel130",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "Amount Financed:",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "350e0bf8-eeab-406d-8c7f-a9d2c719de01"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel131",
+                                                "cls": [
+                                                    "staticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "2,356.00",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "76fe53f5-6d7e-4ed7-a76c-ad17be9c36ea"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel131",
+                                                "cls": [
+                                                    "staticText"
+                                                ],
+                                                "docked": "right",
+                                                "html": "Excl. PPI",
+                                                "right": "10%",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "4f976f8d-32d4-48ca-b035-23dc2fb58742"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": 45,
+                                        "width": "100%"
+                                    },
+                                    "designerId": "4992c296-8d69-4031-9ba6-46a20ef0818e",
+                                    "cn": [
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel130",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "Balloon Residual:",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "7092350d-b866-4f8e-b2d2-02107b83292b"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel131",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "0.00 ",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "590426b7-0cc3-4f4b-992c-e9302a4d6081"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": 45,
+                                        "width": "100%"
+                                    },
+                                    "designerId": "0eedcbb1-939b-4519-ae0b-11b244a5404d"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": 45,
+                                        "width": "100%"
+                                    },
+                                    "designerId": "bc7e5a2d-fb64-46cc-89ca-2ac89cff0fc5",
+                                    "cn": [
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel130",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "Payment Frequency:",
+                                                "left": 2,
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "07fadfed-7940-4a99-a452-846f9e46827c"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel131",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "0.00 ",
+                                                "left": 240,
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "fbd3b5b7-c764-492b-ad04-c2a0a25adf68"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "numberfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyNumberField40",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "disabled": true,
+                                        "disabledCls": " ",
+                                        "left": "5%",
+                                        "top": 300,
+                                        "width": "90%",
+                                        "inputCls": "textBlack",
+                                        "label": "Insure Term (months):",
+                                        "labelCls": "normalLabelText",
+                                        "labelWidth": "60%"
+                                    },
+                                    "designerId": "de832f93-683a-4440-8a68-1c15b59571c2"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer118",
+                                        "docked": null,
+                                        "height": 45,
+                                        "width": "100%"
+                                    },
+                                    "designerId": "bf25b610-bfa6-475c-89a9-a20e1b91337f",
+                                    "cn": [
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel130",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "Finance Term:",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "33cf79b4-3219-43f0-846e-3aaeb65b9036"
+                                        },
+                                        {
+                                            "type": "label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyLabel131",
+                                                "cls": [
+                                                    "cciStaticText"
+                                                ],
+                                                "docked": "left",
+                                                "html": "",
+                                                "styleHtmlContent": true,
+                                                "width": ""
+                                            },
+                                            "designerId": "605c7da2-411b-48c7-9d11-5e6485acf86d"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer49",
+                "height": 20
+            },
+            "designerId": "187fa22f-abf7-42f9-a233-2dae3aca2c27"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer114",
+                "docked": null,
+                "height": 200,
+                "top": null,
+                "width": "100%"
+            },
+            "designerId": "045c85b8-dbf6-4238-9755-f922d6c52641",
+            "cn": [
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTabPanel22",
+                        "height": 200,
+                        "id": "CCIPeriodTAB"
+                    },
+                    "designerId": "ca62c926-b040-4ef6-bbf3-a8dabb1a9c55",
+                    "cn": [
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "CCI Period of Cover",
+                                "designer|userClassName": "MyContainer135",
+                                "cls": [
+                                    "tabBG"
+                                ]
+                            },
+                            "designerId": "6b484862-aebd-43b4-a936-685332b2853f",
+                            "cn": [
+                                {
+                                    "type": "datepickerfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyDateField9",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "disabled": true,
+                                        "disabledCls": " ",
+                                        "docked": "left",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "top": 30,
+                                        "width": "45%",
+                                        "inputCls": "textBlack",
+                                        "label": "From:",
+                                        "labelCls": "normalLabelText",
+                                        "placeHolder": "mm/dd/yyyy"
+                                    },
+                                    "designerId": "02d9a62b-676f-43b9-bee3-09afefeea30e",
+                                    "cn": [
+                                        {
+                                            "type": "datepicker",
+                                            "reference": {
+                                                "name": "picker",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyDatePicker9"
+                                            },
+                                            "designerId": "dccfb509-5cd1-47b2-8bd5-bd75fd26adcb",
+                                            "cn": [
+                                                {
+                                                    "type": "button",
+                                                    "reference": {
+                                                        "name": "doneButton",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyButton76",
+                                                        "text": "Done"
+                                                    },
+                                                    "designerId": "46144901-47ec-4af3-aaf6-ddf2b6209344"
+                                                },
+                                                {
+                                                    "type": "button",
+                                                    "reference": {
+                                                        "name": "cancelButton",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyButton77",
+                                                        "text": "Cancel"
+                                                    },
+                                                    "designerId": "8d688a5e-ebab-444b-a0ae-cf870dc14fe1"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "datepickerfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyDateField9",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "disabled": true,
+                                        "disabledCls": " ",
+                                        "docked": "left",
+                                        "height": 45,
+                                        "left": "",
+                                        "right": ".5%",
+                                        "top": 30,
+                                        "width": "45%",
+                                        "inputCls": "textBlack",
+                                        "label": "To:",
+                                        "labelCls": "normalLabelText",
+                                        "placeHolder": "mm/dd/yyyy"
+                                    },
+                                    "designerId": "0f971b7f-fd1e-47cf-a816-d7b4d9e552f0",
+                                    "cn": [
+                                        {
+                                            "type": "datepicker",
+                                            "reference": {
+                                                "name": "picker",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyDatePicker9"
+                                            },
+                                            "designerId": "3f004ea7-58ea-43aa-93c6-a29f8418b543",
+                                            "cn": [
+                                                {
+                                                    "type": "button",
+                                                    "reference": {
+                                                        "name": "doneButton",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyButton76",
+                                                        "text": "Done"
+                                                    },
+                                                    "designerId": "19c5151a-be76-4e6a-82c2-ee5d90e531e1"
+                                                },
+                                                {
+                                                    "type": "button",
+                                                    "reference": {
+                                                        "name": "cancelButton",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyButton77",
+                                                        "text": "Cancel"
+                                                    },
+                                                    "designerId": "bf7ae9d9-7dc5-4ad8-a015-bc4b41666a49"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer49",
+                "height": 60
+            },
+            "designerId": "9b46d429-f2d5-49b5-9579-8cc3b45464a7"
+        },
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel10",
+                "height": 650,
+                "id": "COPLdetails",
+                "width": "100%"
+            },
+            "designerId": "8b193ab0-ff9a-4d14-a51e-74f17db794f8",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "COPL Insurance",
+                        "designer|userClassName": "MyContainer132",
+                        "cls": [
+                            "tabBG"
+                        ]
+                    },
+                    "designerId": "39ac4f2e-6ab1-4660-8509-ddb0451f20a4",
+                    "cn": [
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer15",
+                                "height": 20
+                            },
+                            "designerId": "28b55688-256e-4cda-b189-f2f0ffdaf383"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": 45,
+                                "width": "100%"
+                            },
+                            "designerId": "e0871dbb-1829-40a5-8d13-00bd0677c19e",
+                            "cn": [
+                                {
+                                    "type": "numberfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyNumberField41",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "right": ".5%",
+                                        "width": "99%",
+                                        "inputCls": "textBlack",
+                                        "label": "Vehicle Rego Number:",
+                                        "labelCls": "normalLabelText"
+                                    },
+                                    "designerId": "71d0db2d-5349-4944-a0bd-d6013dc2befc"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer15",
+                                "height": 20
+                            },
+                            "designerId": "10237e09-fea7-4076-93dd-15366716e8ac"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": 45,
+                                "width": "100%"
+                            },
+                            "designerId": "e9aceb25-880a-4e67-bbf2-9d5b97f008c9",
+                            "cn": [
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel130",
+                                        "cls": [
+                                            "cciStaticText"
+                                        ],
+                                        "docked": "left",
+                                        "html": "Credit Provider:",
+                                        "styleHtmlContent": true,
+                                        "width": ""
+                                    },
+                                    "designerId": "0490aa50-7bce-4749-8607-7bd9cab08178"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel131",
+                                        "cls": [
+                                            "cciStaticText"
+                                        ],
+                                        "docked": "left",
+                                        "html": "ANZ Banking Group ltd.",
+                                        "styleHtmlContent": true,
+                                        "width": ""
+                                    },
+                                    "designerId": "f897d7f4-fa2f-4f47-82fb-aa35ff9ffce4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer15",
+                                "height": 20
+                            },
+                            "designerId": "c3ea4931-cfb7-482d-a2e3-242ad71f8888"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": 45,
+                                "width": "100%"
+                            },
+                            "designerId": "fc990f38-9475-4077-8c5f-dbc3cc2cf0cf",
+                            "cn": [
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel130",
+                                        "cls": [
+                                            "cciStaticText"
+                                        ],
+                                        "docked": "left",
+                                        "html": "Loan Commencement Date:",
+                                        "styleHtmlContent": true,
+                                        "width": ""
+                                    },
+                                    "designerId": "5d51e879-d5fb-4450-b633-9a97589a0742"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel131",
+                                        "cls": [
+                                            "cciStaticText"
+                                        ],
+                                        "docked": "left",
+                                        "html": "26/06/2012",
+                                        "styleHtmlContent": true,
+                                        "width": ""
+                                    },
+                                    "designerId": "ccc4f336-7962-4d8b-9e22-04f0b008c650"
+                                },
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel130",
+                                        "cls": [
+                                            "cciStaticText"
+                                        ],
+                                        "docked": "left",
+                                        "html": "* must be same as insurance cover date ",
+                                        "styleHtmlContent": true,
+                                        "width": ""
+                                    },
+                                    "designerId": "10fc390a-b52a-4303-b780-742ca5e19954"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer15",
+                                "height": 50
+                            },
+                            "designerId": "97f784a2-b454-45f9-a461-bf0d1c3132d8"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": 45,
+                                "width": "100%"
+                            },
+                            "designerId": "92bc46d7-db48-4de3-9bff-9317d08f1591",
+                            "cn": [
+                                {
+                                    "type": "numberfield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyNumberField41",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "right": ".5%",
+                                        "width": "99%",
+                                        "inputCls": "textBlack",
+                                        "label": "Loan Contract Number:",
+                                        "labelCls": "normalLabelText"
+                                    },
+                                    "designerId": "3b8bf591-fdcb-4b2b-9bdc-cbfdb435e560"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer15",
+                                "height": 40
+                            },
+                            "designerId": "0b134d2d-80fc-491f-b77c-19e6095fd3de"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": 45,
+                                "width": "100%"
+                            },
+                            "designerId": "92ed0c49-f478-4130-8a78-05c440656dc3",
+                            "cn": [
+                                {
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyLabel146",
+                                        "cls": [
+                                            "staticText"
+                                        ],
+                                        "docked": "left",
+                                        "html": "Type of Contract:",
+                                        "styleHtmlContent": true
+                                    },
+                                    "designerId": "5dacafe2-cad3-4c58-8bad-7a6804645131"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MySpacer15",
+                                "height": 20
+                            },
+                            "designerId": "da105964-0005-4130-907b-fb12aba6daf6"
+                        },
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyContainer118",
+                                "docked": null,
+                                "height": 45,
+                                "width": "100%"
+                            },
+                            "designerId": "63ba9241-b3fd-4cbc-bdf4-ff62616ab13e",
+                            "cn": [
+                                {
+                                    "type": "radiofield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyRadioButton48",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "top": "",
+                                        "width": "30%",
+                                        "inputCls": "textBlack",
+                                        "label": "Regulated",
+                                        "labelAlign": "right",
+                                        "labelCls": "normalLabelTextRadio",
+                                        "labelWidth": "70%",
+                                        "name": "contracttype"
+                                    },
+                                    "designerId": "801f28c3-b2c7-4ec3-b79b-6d1dd67d2742"
+                                },
+                                {
+                                    "type": "radiofield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyRadioButton48",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "left": "0.5%",
+                                        "top": 100,
+                                        "width": "30%",
+                                        "inputCls": "textBlack",
+                                        "label": "Hire Purchase",
+                                        "labelAlign": "right",
+                                        "labelCls": "normalLabelTextRadio",
+                                        "labelWidth": "70%",
+                                        "name": "contracttype"
+                                    },
+                                    "designerId": "f57131ef-2090-48e6-8bca-adbe4fdc0199"
+                                },
+                                {
+                                    "type": "radiofield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyRadioButton48",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "left": "35%",
+                                        "width": "30%",
+                                        "inputCls": "textBlack",
+                                        "label": "Lease",
+                                        "labelAlign": "right",
+                                        "labelCls": "normalLabelTextRadio",
+                                        "labelWidth": "70%",
+                                        "name": "contracttype"
+                                    },
+                                    "designerId": "7011774e-7eb1-4f0b-8c9c-ac45ab8f8bf9"
+                                },
+                                {
+                                    "type": "radiofield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyRadioButton48",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": 45,
+                                        "left": "35%",
+                                        "top": 100,
+                                        "width": "30%",
+                                        "inputCls": "textBlack",
+                                        "label": "Chattal Mortgage",
+                                        "labelAlign": "right",
+                                        "labelCls": "normalLabelTextRadio",
+                                        "labelWidth": "70%",
+                                        "name": "contracttype"
+                                    },
+                                    "designerId": "83ea19cc-9479-4201-bc7b-514e12a0d181"
+                                },
+                                {
+                                    "type": "radiofield",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyRadioButton48",
+                                        "cls": [
+                                            "normalRoundCorner"
+                                        ],
+                                        "docked": "left",
+                                        "height": "",
+                                        "left": "69.5%",
+                                        "right": ".",
+                                        "width": "30%",
+                                        "inputCls": "textBlack",
+                                        "label": "Cash Deal",
+                                        "labelAlign": "right",
+                                        "labelCls": "normalLabelTextRadio",
+                                        "labelWidth": "70%",
+                                        "name": "contracttype"
+                                    },
+                                    "designerId": "91cfcdcf-b61b-472b-aa07-ac3c7ed84bd3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySpacer49",
+                "height": 30
+            },
+            "designerId": "475b10b3-e646-4b72-9bdb-67087deaaa34"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer30",
+                "height": 830,
+                "maxHeight": null,
+                "minHeight": null,
+                "width": "100%"
+            },
+            "designerId": "efcb6d9d-2b6f-4587-a62b-5239aa8912a9",
+            "cn": [
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTabPanel8",
+                        "height": 820,
+                        "id": "FirstInsudedTab",
+                        "left": ".01%",
+                        "width": "45%"
+                    },
+                    "designerId": "2bfe6bc1-d311-48b1-8e72-096f67509f43",
+                    "cn": [
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "1st Insured",
+                                "designer|userClassName": "MyContainer131",
+                                "cls": [
+                                    "tabBG"
+                                ]
+                            },
+                            "designerId": "cb767703-51ed-4e6e-893e-6190a75df010",
+                            "cn": [
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": "",
+                                        "left": "",
+                                        "width": "100%"
+                                    },
+                                    "designerId": "a8412510-5924-4cac-84f6-c29ba4627e73",
+                                    "cn": [
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox7",
+                                                "cls": [
+                                                    "cbInput"
+                                                ],
+                                                "docked": "right",
+                                                "right": "",
+                                                "width": "60%",
+                                                "label": "Client Age OK",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "0836bf01-383f-4561-872c-12ebf209dafb"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 20
+                                    },
+                                    "designerId": "b5b14d12-e018-4d77-8929-f7f187d29a6b"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": "",
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "ce5ce7e6-c8ed-4599-9c08-47e11da08aa7",
+                                    "cn": [
+                                        {
+                                            "type": "selectfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MySelectField5",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Status:",
+                                                "labelWidth": "45%",
+                                                "options": "[\n{value:\"FT\",text:\"Full Time\"}\n]"
+                                            },
+                                            "designerId": "3d61cbdb-bae0-4ba5-b3e4-f74304ee67b7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "2597a502-8029-48f4-9007-b67c9704b61e"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "4880c6d6-36f7-480a-a163-74b78851ccb3",
+                                    "cn": [
+                                        {
+                                            "type": "textfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextField5",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Employer:",
+                                                "labelWidth": "45%"
+                                            },
+                                            "designerId": "e4b6e19b-d10f-47e5-9070-181bade61142"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "6d1219c6-0017-489f-a21e-73ad73612a66"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "50a32a55-15c3-4d7c-b978-bdb7be6d0b78",
+                                    "cn": [
+                                        {
+                                            "type": "selectfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MySelectField5",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Occupation:",
+                                                "labelWidth": "45%",
+                                                "options": "[\n{value:\"PE\",text:\"Professional/Exective\"}\n]"
+                                            },
+                                            "designerId": "4762ad88-851d-4e4e-9e76-50f6d76fb843"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "9c24a626-d65e-4968-9890-04978d7a3c93"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "be847ca9-6319-403c-85e6-2e4756e14699",
+                                    "cn": [
+                                        {
+                                            "type": "numberfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyNumberField11",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Hours per week:",
+                                                "labelWidth": "45%"
+                                            },
+                                            "designerId": "09d1b5d2-05e9-40d0-9cb1-c5751ccc42f7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "0fa0880b-327d-4df3-84a0-926f1c367d7f"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "036da685-a0d4-4489-b7c4-6cda009dc5db",
+                                    "cn": [
+                                        {
+                                            "type": "numberfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyNumberField11",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Employ period (months):",
+                                                "labelWidth": "45%"
+                                            },
+                                            "designerId": "51a6c9f0-b65d-42ec-98f3-ab645523204e"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "0d9c9da8-034d-4300-bf6b-191f9b4db617"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "7d023300-c394-4872-b101-9163f95d2f49",
+                                    "cn": [
+                                        {
+                                            "type": "selectfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MySelectField5",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "height": 170,
+                                                "label": "Medical Condition to declare:",
+                                                "labelWidth": "65%",
+                                                "options": "[\n{value:\"Y\",text:\"Y\"}\n]"
+                                            },
+                                            "designerId": "ba94e463-fbc6-4bc0-81d7-0118b53cb5c9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "1576bf31-6c15-4f4b-ad09-fc2007ddede2"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "2064091a-47e3-495f-bef6-ce6bce4727bb",
+                                    "cn": [
+                                        {
+                                            "type": "textareafield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextArea",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "If YES enter details:",
+                                                "labelWidth": "45%"
+                                            },
+                                            "designerId": "e8b3752f-3e4e-44a2-900e-c520cf900def"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTabPanel8",
+                        "height": 820,
+                        "id": "SecondInsudedTab",
+                        "right": ".01%",
+                        "width": "45%"
+                    },
+                    "designerId": "85b93e75-7da5-44b0-803a-639aea01c51e",
+                    "cn": [
+                        {
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "2nd Insured",
+                                "designer|userClassName": "MyContainer131",
+                                "cls": [
+                                    "tabBG"
+                                ]
+                            },
+                            "designerId": "6ea240b6-afec-4006-a7b9-33dc6d6f6b01",
+                            "cn": [
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": "",
+                                        "left": ".5%",
+                                        "width": "100%"
+                                    },
+                                    "designerId": "6d109dc6-067e-4674-91ae-58f73e087f7a",
+                                    "cn": [
+                                        {
+                                            "type": "checkboxfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyCheckbox7",
+                                                "cls": [
+                                                    "cbInput"
+                                                ],
+                                                "docked": "right",
+                                                "width": "60%",
+                                                "label": "Client Age OK",
+                                                "labelWidth": "70%"
+                                            },
+                                            "designerId": "976ae61f-9afd-4bee-959a-6ac113078c97"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "ee7d1dd7-a7d0-44fa-87cb-c029a94b6901"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "7499990d-8149-4ce4-b143-3a0d2ced6d77",
+                                    "cn": [
+                                        {
+                                            "type": "selectfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MySelectField5",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Status:",
+                                                "labelWidth": "45%",
+                                                "options": "[\n{value:\"FT\",text:\"Full Time\"}\n]"
+                                            },
+                                            "designerId": "f770b466-7588-44cb-8a4d-deb27ec99ea3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "84c4e5f3-281c-4c31-bd79-3d115d3d7a96"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "0641e2d5-601d-4479-b5f0-db31ff054f7c",
+                                    "cn": [
+                                        {
+                                            "type": "textfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextField5",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Employer:",
+                                                "labelWidth": "45%"
+                                            },
+                                            "designerId": "0d3103db-f10a-43ec-bfe7-cca588923cc6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "eae26211-24a9-4ee3-899b-1816559291cc"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "30ed947a-5b0e-47fa-bacc-25088daa880f",
+                                    "cn": [
+                                        {
+                                            "type": "selectfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MySelectField5",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Occupation:",
+                                                "labelWidth": "45%",
+                                                "options": "[\n{value:\"PE\",text:\"Professional/Exective\"}\n]"
+                                            },
+                                            "designerId": "4b19fbe1-3803-4f9f-815d-d41d38e6f6fe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "0d5c689d-f959-4069-9f35-894b3b3f06cc"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "f871d8d5-ba7d-46dd-9c80-cd67e4d2577e",
+                                    "cn": [
+                                        {
+                                            "type": "numberfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyNumberField11",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Hours per week:",
+                                                "labelWidth": "45%"
+                                            },
+                                            "designerId": "a50d27ac-6541-40c2-bd32-40613e296387"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "5e30f32e-c55a-491b-875b-0a525ac9f4f9"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "deea1855-3b0a-43d5-8beb-913231a03bb4",
+                                    "cn": [
+                                        {
+                                            "type": "numberfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyNumberField11",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Employ period (months):",
+                                                "labelWidth": "45%"
+                                            },
+                                            "designerId": "da5f8111-8aec-488e-a544-7dd194029164"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "5a915b57-b84a-46b8-b258-bc3b58098af6"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "d0902566-d9a6-46a3-a181-11789e26059c",
+                                    "cn": [
+                                        {
+                                            "type": "selectfield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MySelectField5",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "Medical Condition to declare:",
+                                                "labelWidth": "65%",
+                                                "options": "[\n{value:\"Y\",text:\"Y\"}\n]"
+                                            },
+                                            "designerId": "b94b7dc5-eda9-4cc5-bf34-a26035f4d109"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "f0f95a55-7c57-4cc3-a30d-38e4a6109b0d"
+                                },
+                                {
+                                    "type": "container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyContainer50",
+                                        "height": 45,
+                                        "left": ".5%",
+                                        "width": "99%"
+                                    },
+                                    "designerId": "836d64ae-60aa-4228-acbb-58504cc4476d",
+                                    "cn": [
+                                        {
+                                            "type": "textareafield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextArea",
+                                                "cls": [
+                                                    "textBlack",
+                                                    "normalRoundCorner"
+                                                ],
+                                                "label": "If YES enter details:",
+                                                "labelWidth": "45%"
+                                            },
+                                            "designerId": "994df762-95c0-4cb4-b4ef-247c3b59f1dc"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "spacer",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MySpacer101",
+                                        "height": 95
+                                    },
+                                    "designerId": "2cec0b1c-8675-4a24-a24b-6e44ddad6808"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

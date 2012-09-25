@@ -1,0 +1,758 @@
+.finance {
+ -webkit-mask-box-image: url('images/finance.png');
+  }
+  .assets {
+ -webkit-mask-box-image: url('images/assets.png');
+ }
+  .customer {
+ -webkit-mask-box-image: url('images/customer.png');
+  }
+  .summary {
+ -webkit-mask-box-image: url('images/summary.png');
+ }
+ .insurance {
+ -webkit-mask-box-image: url('images/insurance.png');
+ }
+  .print {
+ -webkit-mask-box-image: url('images/print.png');
+ }
+.save {
+ -webkit-mask-box-image: url('images/save.png');
+ }
+  .cancel {
+ -webkit-mask-box-image: url('images/cancel.png');
+ }
+ .newquote{
+ -webkit-mask-box-image: url('images/newquote.png');
+ }
+ .openquote{
+/* -webkit-mask-box-image: url('images/openquote.png');*/
+ icon:url('images/openquote.png');
+
+ }
+ .opendeal{
+ -webkit-mask-box-image: url('images/opendeal1.png');
+ }
+  .logout{
+ -webkit-mask-box-image: url('images/logout.png');
+ }
+ 
+ .inputField {
+  -webkit-text-fill-color: #CC0000;
+ }
+ 
+ /* Jaami: style for tabbar that set radious*/
+.x-tabbar{
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+}
+
+#loginButton{
+  font-size: 2.2em;
+}
+
+.popupWindow{
+  background-image: -webkit-linear-gradient( 
+  #FDFDFD, 
+  #F1F1F1 7%, 
+  rgba(37, 37, 41, 0.28) 89%, 
+  #295C3B);
+}
+
+/* Jaami: Next 3 are combination of loging button background */
+.x-button.x-button-confirm, .x-button.x-button-confirm.x-button-back::after, .x-button.x-button-confirm.x-button-forward::after, .x-toolbar .x-button.x-button-confirm, .x-toolbar .x-button.x-button-confirm.x-button-back::after, .x-toolbar .x-button.x-button-confirm.x-button-forward::after, .x-button.x-button-confirm-round, .x-button.x-button-confirm-round.x-button-back::after, .x-button.x-button-confirm-round.x-button-forward::after, .x-toolbar .x-button.x-button-confirm-round, .x-toolbar .x-button.x-button-confirm-round.x-button-back::after, .x-toolbar .x-button.x-button-confirm-round.x-button-forward::after, .x-button.x-button-confirm-small, .x-button.x-button-confirm-small.x-button-back::after, .x-button.x-button-confirm-small.x-button-forward::after, .x-toolbar .x-button.x-button-confirm-small, .x-toolbar .x-button.x-button-confirm-small.x-button-back::after, .x-toolbar .x-button.x-button-confirm-small.x-button-forward::after{
+  background-color: #1984F8;
+}
+
+/* Jaami: Loging button */
+.x-button.x-button-confirm, .x-button.x-button-confirm.x-button-back::after, .x-button.x-button-confirm.x-button-forward::after, .x-toolbar .x-button.x-button-confirm, .x-toolbar .x-button.x-button-confirm.x-button-back::after, .x-toolbar .x-button.x-button-confirm.x-button-forward::after, .x-button.x-button-confirm-round, .x-button.x-button-confirm-round.x-button-back::after, .x-button.x-button-confirm-round.x-button-forward::after, .x-toolbar .x-button.x-button-confirm-round, .x-toolbar .x-button.x-button-confirm-round.x-button-back::after, .x-toolbar .x-button.x-button-confirm-round.x-button-forward::after, .x-button.x-button-confirm-small, .x-button.x-button-confirm-small.x-button-back::after, .x-button.x-button-confirm-small.x-button-forward::after, .x-toolbar .x-button.x-button-confirm-small, .x-toolbar .x-button.x-button-confirm-small.x-button-back::after, .x-toolbar .x-button.x-button-confirm-small.x-button-forward::after {
+  background-image: none;
+  min-height: 75px;
+}
+
+/* Jaami: Loging button when pressed */
+.x-button.x-button-confirm.x-button-pressing, .x-button.x-button-confirm.x-button-pressing::after, .x-button.x-button-confirm.x-button-pressed, .x-button.x-button-confirm.x-button-pressed::after, .x-button.x-button-confirm.x-button-active, .x-button.x-button-confirm.x-button-active::after, .x-toolbar .x-button.x-button-confirm.x-button-pressing, .x-toolbar .x-button.x-button-confirm.x-button-pressing::after, .x-toolbar .x-button.x-button-confirm.x-button-pressed, .x-toolbar .x-button.x-button-confirm.x-button-pressed::after, .x-toolbar .x-button.x-button-confirm.x-button-active, .x-toolbar .x-button.x-button-confirm.x-button-active::after, .x-button.x-button-confirm-round.x-button-pressing, .x-button.x-button-confirm-round.x-button-pressing::after, .x-button.x-button-confirm-round.x-button-pressed, .x-button.x-button-confirm-round.x-button-pressed::after, .x-button.x-button-confirm-round.x-button-active, .x-button.x-button-confirm-round.x-button-active::after, .x-toolbar .x-button.x-button-confirm-round.x-button-pressing, .x-toolbar .x-button.x-button-confirm-round.x-button-pressing::after, .x-toolbar .x-button.x-button-confirm-round.x-button-pressed, .x-toolbar .x-button.x-button-confirm-round.x-button-pressed::after, .x-toolbar .x-button.x-button-confirm-round.x-button-active, .x-toolbar .x-button.x-button-confirm-round.x-button-active::after, .x-button.x-button-confirm-small.x-button-pressing, .x-button.x-button-confirm-small.x-button-pressing::after, .x-button.x-button-confirm-small.x-button-pressed, .x-button.x-button-confirm-small.x-button-pressed::after, .x-button.x-button-confirm-small.x-button-active, .x-button.x-button-confirm-small.x-button-active::after, .x-toolbar .x-button.x-button-confirm-small.x-button-pressing, .x-toolbar .x-button.x-button-confirm-small.x-button-pressing::after, .x-toolbar .x-button.x-button-confirm-small.x-button-pressed, .x-toolbar .x-button.x-button-confirm-small.x-button-pressed::after, .x-toolbar .x-button.x-button-confirm-small.x-button-active, .x-toolbar .x-button.x-button-confirm-small.x-button-active::after {
+  background-color: #09518A;
+  background-image: none;
+  min-height: 75px;
+}
+
+/* Jaami: Main backgroud area color */
+.x-form .x-scroll-container {
+  background: -webkit-linear-gradient(
+  #3A3A3D, 
+  #333 9%, 
+  gray 104%, 
+  black 29%, 
+  #8ABABC 923%);
+}
+
+
+/* Jaami: tabpage background */
+#ext-element-242 {
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000)); */
+}
+
+/* Jaami: tabcolor */
+.tabBG{
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000));
+  -webkit-border-bottom-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+}
+
+/* Jaami: Label font size*/
+.staticText{
+  /* font-size: 1.4em; */
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/*Jaami: Field label font */
+.x-form-label span {
+  font-size: 20px; 
+  font-weight: normal;
+}
+
+.cciStaticText{
+  font-size: 30px;
+  font-weight: normal;
+}
+
+/* Select list options background */
+.x-panel.x-floating > .x-panel-inner, .x-panel.x-floating .x-scroll-view, .x-panel.x-floating .x-body, .x-msgbox.x-floating > .x-panel-inner, .x-msgbox.x-floating .x-scroll-view, .x-msgbox.x-floating .x-body, .x-form.x-floating > .x-panel-inner, .x-form.x-floating .x-scroll-view, .x-form.x-floating .x-body {
+  background-color: rgba(1, 1, 2, 0.43);
+}
+
+/* ***************** PICKER SLOT START ******************** */
+/* Jaami: The brain buster picker slot game walkthrough (DAMN)*/
+
+/* Date picker background color */
+.x-sheet.x-picker .x-sheet-inner {
+  background-color: rgba(31, 68, 49, 0.5);
+}
+
+
+.x-sheet.x-picker {
+padding: 0;
+background-color: rgba(74, 102, 61, 0);
+}
+
+.x-sheet, .x-sheet-action {
+padding: 0;
+border-top: none ;
+background-image: none;
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+
+.x-picker {
+  background-image: 10px;
+}
+
+.x-picker-slot .x-picker-item {
+  background-image: -webkit-linear-gradient( 
+  #FDFDFD, 
+  #F1F1F1 7%, 
+  rgba(37, 37, 41, 0.28) 89%, 
+  #295C3B);
+}
+
+.x-picker-slot .x-dataview-item {
+  font-weight: none;
+  padding: 0;
+}
+.x-toolbar-dark {
+background-image: none;
+background-color: transparent;
+background-image: none;
+border-color: none;
+}
+
+
+.x-toolbar-dark .x-button, .x-toolbar-dark .x-button.x-button-back::after, .x-toolbar-dark .x-button.x-button-forward::after, .x-toolbar .x-toolbar-dark .x-button, .x-toolbar .x-toolbar-dark .x-button.x-button-back::after, .x-toolbar .x-toolbar-dark .x-button.x-button-forward::after, .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar-dark .x-field-select .x-component-outer.x-button-back::after, .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward::after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-back::after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward::after, .x-toolbar-dark .x-field-select .x-component-outer::before, .x-toolbar-dark .x-field-select .x-component-outer::before.x-button-back::after, .x-toolbar-dark .x-field-select .x-component-outer::before.x-button-forward::after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer::before, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer::before.x-button-back::after, .x-toolbar .x-toolbar-dark .x-field-select .x-component-outer::before.x-button-forward::after {
+  background-image: none;
+  background-color: rgba(17, 89, 140, 0);
+}
+
+.x-button.x-button-action, .x-button.x-button-action.x-button-back::after, .x-button.x-button-action.x-button-forward::after, .x-toolbar .x-button.x-button-action, .x-toolbar .x-button.x-button-action.x-button-back::after, .x-toolbar .x-button.x-button-action.x-button-forward::after, .x-button.x-button-action-round, .x-button.x-button-action-round.x-button-back::after, .x-button.x-button-action-round.x-button-forward::after, .x-toolbar .x-button.x-button-action-round, .x-toolbar .x-button.x-button-action-round.x-button-back::after, .x-toolbar .x-button.x-button-action-round.x-button-forward::after, .x-button.x-button-action-small, .x-button.x-button-action-small.x-button-back::after, .x-button.x-button-action-small.x-button-forward::after, .x-toolbar .x-button.x-button-action-small, .x-toolbar .x-button.x-button-action-small.x-button-back::after, .x-toolbar .x-button.x-button-action-small.x-button-forward::after {
+  background-image: none;
+  background-color: rgba(0, 107, 182, 0);
+}
+
+/* Jaami: Toolbar button when pressed */
+.x-toolbar-light .x-button.x-button-pressing, .x-toolbar-light .x-button.x-button-pressing::after, .x-toolbar-light .x-button.x-button-pressed, .x-toolbar-light .x-button.x-button-pressed::after, .x-toolbar-light .x-button.x-button-active, .x-toolbar-light .x-button.x-button-active::after, .x-toolbar .x-toolbar-light .x-button.x-button-pressing, .x-toolbar .x-toolbar-light .x-button.x-button-pressing::after, .x-toolbar .x-toolbar-light .x-button.x-button-pressed, .x-toolbar .x-toolbar-light .x-button.x-button-pressed::after, .x-toolbar .x-toolbar-light .x-button.x-button-active, .x-toolbar .x-toolbar-light .x-button.x-button-active::after, .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing, .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing::after, .x-toolbar-light .x-field-select .x-component-outer.x-button-pressed, .x-toolbar-light .x-field-select .x-component-outer.x-button-pressed::after, .x-toolbar-light .x-field-select .x-component-outer.x-button-active, .x-toolbar-light .x-field-select .x-component-outer.x-button-active::after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing::after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-pressed, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-pressed::after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-active, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-active::after, .x-toolbar-light .x-field-select .x-component-outer::before.x-button-pressing, .x-toolbar-light .x-field-select .x-component-outer::before.x-button-pressing::after, .x-toolbar-light .x-field-select .x-component-outer::before.x-button-pressed, .x-toolbar-light .x-field-select .x-component-outer::before.x-button-pressed::after, .x-toolbar-light .x-field-select .x-component-outer::before.x-button-active, .x-toolbar-light .x-field-select .x-component-outer::before.x-button-active::after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer::before.x-button-pressing, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer::before.x-button-pressing::after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer::before.x-button-pressed, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer::before.x-button-pressed::after, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer::before.x-button-active, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer::before.x-button-active::after {
+  background-image: none;
+  background-color: 
+  rgba(34, 50, 61, 0.42);
+}
+
+/* ***************** PICKER SLOT END ********************** */
+
+/* Jaami: TabBar 3D look */
+.x-tabbar-light {
+ /* background-image: -webkit-linear-gradient(#333, #BCBCBC 35%, #BBC 51%, black);*/
+
+}
+
+/* Jaami: TabBar height */
+.x-tabbar.x-docked-bottom {
+  height: 6.4em;
+  background-image: -webkit-linear-gradient(#3A3A3D, white 7%, black 89%, black);
+}
+
+/* Jaami: Tabbar top and bottom border color matching bar color */
+.x-tabbar-light {
+border-top-color: #66666D;
+border-bottom-color: #1B1819;
+}
+
+/*Jaami: TabBar Button Height*/
+.x-tabbar-light.x-docked-bottom .x-tab {
+  height: 4.4em;
+}
+
+/*Jaami: TabBar Button Label Font Size */
+.x-tabbar-light.x-docked-bottom .x-tab .x-button-label{
+  font-size: 13px;
+}
+
+/* jaami: ToolBar 3D look */
+.x-toolbar-light.x-docked-top{
+  background-image: -webkit-linear-gradient(#3A3A3D, gray 7%, white 89%, black);
+}
+
+/* Toolbar button background transparent UNMARK */
+.x-toolbar-light .x-button,.x-toolbar-light .x-button.x-button-back:after,.x-toolbar-light .x-button.x-button-forward:after,.x-toolbar .x-toolbar-light .x-button,.x-toolbar .x-toolbar-light .x-button.x-button-back:after,.x-toolbar .x-toolbar-light .x-button.x-button-forward:after,.x-toolbar-light .x-field-select .x-component-outer,.x-toolbar-light .x-field-select .x-component-outer.x-button-back:after,.x-toolbar-light .x-field-select .x-component-outer.x-button-forward:after,.x-toolbar .x-toolbar-light .x-field-select .x-component-outer,.x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-back:after,.x-toolbar .x-toolbar-light .x-field-select .x-component-outer.x-button-forward:after,.x-toolbar-light .x-field-select .x-component-outer:before,.x-toolbar-light .x-field-select .x-component-outer:before.x-button-back:after,.x-toolbar-light .x-field-select .x-component-outer:before.x-button-forward:after,.x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before,.x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-back:after,.x-toolbar .x-toolbar-light .x-field-select .x-component-outer:before.x-button-forward:after {
+  background-color: transparent;
+  background-image: none;
+
+}
+
+/* Jaami: icon color on Tabbar */
+.x-tab .x-button-icon {
+  background-color: #68686D;
+}
+
+/* Jaami: icon color on tabbar */
+.x-tabbar-light.x-docked-bottom .x-tab .x-button-icon {
+  background-color: #68686D;
+  background-image: none;
+}
+
+/* Jaami: tabbar active icon background ; */
+.x-tabbar-light.x-docked-bottom .x-tab-active .x-button-icon {
+  background-color: #68686D;
+  /*background-image: -webkit-linear-gradient(#006699, #006699 20%, #F5FFFF 65%, #F5FFFF);
+  */
+  background-image: none;
+}
+
+/* Jaami: Tabbar title horizontal alignment & font size*/
+.x-tabbar.x-docked-top .x-button-label, .x-tabbar.x-docked-top .x-hasbadge .x-badge, .x-hasbadge .x-tabbar.x-docked-top .x-badge {
+  font-size: 1.1em;
+  line-height: 1.1em;
+}
+
+
+
+
+/* Jaami: ToolBar Button icon */
+.x-button .x-button-icon {
+/*  
+  width: 2.1em;
+  height: 3.1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+*/  
+}
+
+/* Jaami: Toolbar button width & height */
+.x-toolbar .x-button {
+   min-width: 200px;
+   min-height: 69px;
+}
+
+.x-toolbar .x-button .x-button-label{
+  font-size: 1.4em;
+}
+
+.x-toolbar-light .x-button, .x-toolbar .x-toolbar-light .x-button, .x-toolbar-light .x-field-select .x-component-outer, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer, .x-toolbar-light .x-field-select .x-component-outer::before, .x-toolbar .x-toolbar-light .x-field-select .x-component-outer::before {
+  font-size: 0.8em;
+/*
+border: 1px solid #0B3C5E;
+border-top-color: 
+#0E4B75;
+color: #922C2C;
+*/
+}
+
+
+
+/*
+#ext-button-8{
+ background-color: green;
+  background-image: none; 
+}*/
+
+.x-toolbar-neutral .x-button.x-button-pressing,.x-toolbar-neutral .x-button.x-button-pressing:after,.x-toolbar-neutral .x-button.x-button-pressed,.x-toolbar-neutral .x-button.x-button-pressed:after,.x-toolbar-neutral .x-button.x-button-active,.x-toolbar-neutral .x-button.x-button-active:after,.x-toolbar .x-toolbar-neutral .x-button.x-button-pressing,.x-toolbar .x-toolbar-neutral .x-button.x-button-pressing:after,.x-toolbar .x-toolbar-neutral .x-button.x-button-pressed,.x-toolbar .x-toolbar-neutral .x-button.x-button-pressed:after,.x-toolbar .x-toolbar-neutral .x-button.x-button-active,.x-toolbar .x-toolbar-neutral .x-button.x-button-active:after,.x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressing,.x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressing:after,.x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressed,.x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressed:after,.x-toolbar-neutral .x-field-select .x-component-outer.x-button-active,.x-toolbar-neutral .x-field-select .x-component-outer.x-button-active:after,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressing,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressing:after,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressed,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-pressed:after,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-active,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer.x-button-active:after,.x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressing,.x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressing:after,.x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressed,.x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressed:after,.x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-active,.x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-active:after,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressing,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressing:after,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressed,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-pressed:after,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-active,.x-toolbar .x-toolbar-neutral .x-field-select .x-component-outer:before.x-button-active:after {
+  /*
+  background-color: transparent;
+  background-image: none;
+  */
+}
+
+/* Jaami: ToolBar Button height */
+/*
+.x-button {
+
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-border-radius: 0.4em;
+  border-radius: 0.4em;
+  display: -webkit-box;
+  display: box;
+  -webkit-box-align: center;
+  box-align: center;
+  min-height: 2.5em;
+  padding: .3em .6em;
+
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  
+  height: 70px;
+}
+*/
+
+/* Jaami: tab control background color 
+   it is marked because tab control and pabpage height should be
+   equal. And tab control background is transparent by default.
+*/
+  #ext-tabpanel-1 {
+    /* background-color: blue; */ 
+}
+
+/* Jaami: tabpage background color and bottom radius */
+#ext-element-415 {
+  /*
+  background: -webkit-gradient(linear, left top, left bottom, from(
+  #333), to(
+  black));
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  */
+}
+
+/* Jaami: set default feield/buttons height */
+.x-field, .x-button {
+  min-height: 4.2em;
+  max-height: 4.2em;
+}
+
+/* Jaami: font size for all input kinds */
+input, textarea, select {
+  /*
+  font-family: inherit;
+  font-weight: inherit;
+  */
+  font-size: 1.5em;
+}
+
+.MandatoryField {
+/*  border: 1px solid Red;*/
+	border-top: 1px solid Red;
+	border-bottom: 1px solid Red;
+	border-right: 1px solid Red;
+	border-left: 1px solid Red;
+	background-color:#FFFFCC;
+	-webkit-text-fill-color: #000000;
+	font-size: 1.26em;
+ }
+.yellowinputField {
+
+	border-top: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+	border-right: 1px solid #003366;
+	border-left: 1px solid #003366;
+	background-color:#FFFFCC;
+	-webkit-text-fill-color: #000000;
+	font-size: 1.28em;
+	
+-webkit-border-top-left-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+ }
+ 
+ 
+ .labelText
+ {
+
+border-top: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+	border-right: 1px solid #003366;
+	border-left: 1px solid #003366;
+	background-color:#FFFFFF;
+/*	-webkit-border-radius: 10px;*/
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+	
+	-webkit-text-fill-color: #000000;
+	/*font-size: 1.28em;*/
+	-webkit-background-clip: padding-box;
+	background:url("tesst.png");
+	
+ }
+ 
+.mandatoryLabelText
+ {
+
+
+
+border-right: 1px solid red;
+
+background-color:red;
+/*	-webkit-border-radius: 10px;*/
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+	
+-webkit-text-fill-color: #000000;
+	/*font-size: 1.28em;*/
+	-webkit-background-clip: content;
+	background:url("tesst.png");
+	
+ }
+ 
+ .mandatoryInputField {
+
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;
+	border-left: 1px solid red;
+	/*	background-color:#FFFFCC;*/
+	/*background:url("mandatoryBG.png");*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
+	-webkit-background-clip: content;
+	-webkit-text-fill-color: #000000;
+	/*font-size: 1.28em;*/
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	 -webkit-text-fill-color: #000000;
+	
+ 						}
+.mandatoryRoundCorner
+ {
+	/*background:url("mandatoryBG.png");*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
+	-webkit-background-clip: padding-box;
+  	-webkit-border-radius: 10px;
+  	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;
+	border-left: 1px solid red;
+ }
+ 
+ .contentBG
+{
+background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000));
+-webkit-background-clip:border;	 
+-webkit-border-bottom-left-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+-webkit-border-top-left-radius:10px;
+-webkit-border-top-right-radius:10px;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+border-right: 1px solid #fff;
+border-left: 1px solid #fff;
+}
+.contentBGSquare
+{
+background: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#444444));
+-webkit-background-clip:border;	 
+}
+.topRoundCorners
+{
+-webkit-border-top-left-radius:10px;
+-webkit-border-top-right-radius:10px;
+}
+
+.bottomRound
+{
+background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000));
+-webkit-background-clip:border;	 
+-webkit-border-bottom-left-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+-webkit-border-top-left-radius:0;
+-webkit-border-top-right-radius:0;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+border-right: 1px solid #fff;
+border-left: 1px solid #fff;
+}
+.whiteBorder
+{border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+border-right: 1px solid #fff;
+border-left: 1px solid #fff;}
+						
+.normalRoundCorner/* with yellowinput background*/
+{
+	/*background:url("mandatoryBG.png");*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
+	-webkit-background-clip: padding-box;
+  	-webkit-border-radius: 10px;
+  	border-top: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+	border-right: 1px solid #003366;
+	border-left: 1px solid #003366;
+}					
+
+.onlyRoundCorner
+{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+  	border-top: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+	border-right: 1px solid #003366;
+	border-left: 1px solid #003366;
+	-webkit-text-fill-color: #000000;
+ 
+}		
+.normalLabelText
+ {
+border-right: 1px solid #003366;
+background-color:red;
+/*	-webkit-border-radius: 10px;*/
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-webkit-border-top-right-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-text-fill-color: #000000;
+/*font-size: 1.28em;*/
+-webkit-background-clip: content;
+background:url("tesst.png");
+}
+.normalLabelTextRadio
+ {
+border-left: 1px solid #003366;
+background-color:red;
+/*	-webkit-border-radius: 10px;*/
+-webkit-border-top-left-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-text-fill-color: #000000;
+/*font-size: 1.28em;*/
+-webkit-background-clip: content;
+background:url("tesst.png");
+}
+.normalLabelTextDisabled
+{
+	-webkit-text-fill-color: #8a8a8a;
+} 
+ .normalInputField {
+
+	border-top: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+	border-right: 1px solid #003366;
+	border-left: 1px solid #003366;
+	/*	background-color:#FFFFCC;*/
+	/*background:url("mandatoryBG.png");*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
+	-webkit-background-clip: content;
+	-webkit-text-fill-color: #000000;
+	/*font-size: 1.28em;*/
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	 -webkit-text-fill-color: #000000;
+	
+ 						}
+
+						
+.textBlack
+ {
+
+   -webkit-text-fill-color: #000000;
+ }
+ 
+.textBlackRight
+ {
+
+   -webkit-text-fill-color: #000000;
+   text-align:right;
+   padding-right:5px;
+ } 
+ 
+ .roundCorner
+ {
+  -webkit-border-radius: 10px;
+ }
+ 
+ /*Jaami: font style*/
+ .productName
+ {
+  /*
+  padding:0;
+  margin: 0;
+  text-decoration: none;
+*/
+  text-align: center;
+  font-family: "Tahoma",Georgia,Serif;
+  -webkit-text-fill-color: #136CD1;
+  font-size: 25px;
+  
+ }
+
+
+ .productVersion
+ {
+  -webkit-text-fill-color: #FD803D;
+  font-size: 1.5em;
+ } 
+
+ .whiteBorder
+ {
+	color: #fff;
+	border: 1x solid #fff;
+	border-color:#FFFFFF;
+ }
+ 
+ 
+ .inputBorder
+ {
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+border-left: 1px solid black;
+background-color:#FFFFCC;
+ }
+ 
+.cutomButtonBlue{
+
+border: 1px solid darkgreen;
+background-color: white;
+border-radius: 10px;
+box-shadow: inset 1px 6px 12px #0488f8, inset -1px -10px 5px #154688, 1px 2px 1px black;
+-o-box-shadow: inset 1px 6px 12px #0488f8, inset -1px -10px 5px #154688, 1px 2px 1px black;
+-webkit-box-shadow: inset 1px 6px 12px #0488f8, inset -1px -10px 5px #154688, 1px 2px 1px black;
+-moz-box-shadow: inset 1px 6px 12px #0488f8, inset -1px -10px 5px #154688, 1px 2px 1px black;
+color: white;
+text-shadow: 1px 1px 1px #000000;
+padding: 5px 30px;
+
+font-size: 2em;
+  	line-height: 1.2em;
+  	text-rendering: optimizeLegibility;
+  	-webkit-font-smoothing: antialiased;
+
+}
+
+/*IA adding background to Login Panel */ 
+.loginBG
+{
+ background: transparent url('images/loginBG.png') no-repeat top right;
+}
+
+.largeButtonText
+{
+	font-size: 2em;
+  	line-height: 1.2em;
+  	text-rendering: optimizeLegibility;
+  	-webkit-font-smoothing: antialiased;
+}
+
+.cbInput{
+  /*background: blue;*/
+  -webkit-text-fill-color: black;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+
+}
+
+/* jaami changed border of fieldset in login form */
+.textInput
+	{ 
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+
+    -webkit-text-fill-color: #000000 ;
+    font-size: 1.5em;
+    
+    border: 5px solid gray;
+    -webkit-border-radius: 10px;
+    
+    -moz-border-image:url("images/border1.png") 20 20 round;
+    -webkit-border-image:url("images/border1.png") 20 20 round;
+    -o-border-image:url("images/border1.png") 20 20 round; 
+    border-image:url("images/border1.png") 20 20 round;
+    -webkit-border-vertical-spacing: 20px;
+    
+	}
+
+html, body {
+  font-family: "Helvetica Neue", HelveticaNeue, "Helvetica-Neue", Helvetica, "BBAlpha Sans", sans-serif;
+  font-weight: normal;
+  position: relative;
+  -webkit-text-size-adjust: none;
+  -webkit-text-fill-color: #FFFFFF;
+}
+
+
+/* Custom Bottom Tab bar */
+.x-tabbar-light {
+  background-color: #1f1f1f ;
+  background-image: none;
+}
+
+
+.x-tabbar-light.x-docked-bottom .x-tab {  
+  width:11.11%;
+}
+
+
+/* Jaami: no light tabbar so background is none */
+.x-tabbar-light.x-docked-bottom .x-tab-active {
+  background-color: black;
+  background-image: none;
+}
+
+
+/* Jaami: no top tabbar so background is none */
+.x-tabbar-light.x-docked-top .x-tab-active {
+  background-color: black;
+  background-image: none;
+}
+
+/* Jaami: no dark tabbar so background is none */
+.x-tabbar-dark {
+  background-color: black;
+  background-image: none;
+}
+
+/* Jaami: tabbar title background & color */
+.x-tabbar-dark.x-docked-top .x-tab-active {
+  background-color: black;
+  background-image: none;
+  color: white;
+}
+
+
+/****************************************/
+
+
+
+}

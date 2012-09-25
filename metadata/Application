@@ -1,0 +1,56 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Application",
+            "ApplicationStatusCode",
+            "CBIPremium",
+            "EPIPremium",
+            "LTPPremium",
+            "EWPremium",
+            "ApplicationFinanceCompany",
+            "AgentSalePerson",
+            "CCIPremium",
+            "Fee",
+            "Finance",
+            "CustomerCorporate",
+            "CustomerIndividual",
+            "MVPremium",
+            "MEPIPremium",
+            "DealData",
+            "OtherInsurance",
+            "VIPPremium",
+            "Customer",
+            "ContactInformation",
+            "CustomerEmployment",
+            "CustomerExpense",
+            "CustomerVerification",
+            "PersonalInformation",
+            "CustomerIncome"
+        ],
+        "views": [
+            "MainScreen",
+            "Customer",
+            "AfterMarket",
+            "MainScreenComponent",
+            "Summary",
+            "Quote",
+            "Asset",
+            "MVI",
+            "WTY",
+            "Insurance",
+            "CBI"
+        ],
+        "name": "MyApp",
+        "controllers": [
+            "CoplController"
+        ]
+    },
+    "id": "ExtBox1-ext-gen55321",
+    "designerId": "application"
+}

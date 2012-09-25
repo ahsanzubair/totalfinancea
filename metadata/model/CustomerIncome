@@ -1,0 +1,14 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CustomerIncome",
+        "designer|userAlias": "CustomerIncome"
+    },
+    "id": "ExtBox1-ext-gen16410",
+    "designerId": "dc0aa66a-363e-4462-a72b-7b4c4d4dfb92"
+}

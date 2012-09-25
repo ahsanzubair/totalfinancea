@@ -1,0 +1,14 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "EPIPremium",
+        "designer|userAlias": "EPIPremium"
+    },
+    "id": "ExtBox1-ext-gen13568",
+    "designerId": "29276840-94ab-4cea-a843-eece5fdbc2cc"
+}

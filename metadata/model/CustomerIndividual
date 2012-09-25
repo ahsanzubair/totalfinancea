@@ -1,0 +1,151 @@
+{
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CustomerIndividual",
+        "designer|userAlias": "CustomerIndividual"
+    },
+    "id": "ExtBox1-ext-gen23665",
+    "designerId": "6d150b05-e3a6-411f-bd6c-f68b84945a90",
+    "cn": [
+        {
+            "type": "belongstoassociation",
+            "reference": {
+                "name": "belongsTo",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyBelongsToAssociation",
+                "model": "Customer"
+            },
+            "designerId": "4c26c677-83e6-4ea2-ac20-3356465def99"
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "customerEmployment",
+                "designer|userClassName": "MyHasOneAssociation29",
+                "model": "CustomerEmployment"
+            },
+            "designerId": "95db63ec-84ce-4540-8de0-7b406c0d5988",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "customerExpense",
+                "designer|userClassName": "MyHasOneAssociation30",
+                "model": "CustomerExpense"
+            },
+            "designerId": "bc54304f-3508-4b9f-a210-fb00904f62d2",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "customerIncome",
+                "designer|userClassName": "MyHasOneAssociation31",
+                "model": "CustomerIncome"
+            },
+            "designerId": "3ba40a98-16c4-4267-a64f-c2964d73c8e8",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "customerVerification",
+                "designer|userClassName": "MyHasOneAssociation32",
+                "model": "CustomerVerification"
+            },
+            "designerId": "29ef3c46-7d7d-4c88-8455-a10e070a9d40",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "hasoneassociation",
+            "reference": {
+                "name": "hasOne",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "personalInformation",
+                "designer|userClassName": "MyHasOneAssociation33",
+                "model": "PersonalInformation"
+            },
+            "designerId": "3f7934b2-20f8-475d-9996-b0bb6067c03a",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "name",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyField73",
+                "name": "gstRegistrationIndicator",
+                "defaultValue": [
+                    "''"
+                ],
+                "type": "string"
+            },
+            "designerId": "cb7d2dd6-82d4-4f6e-9bed-1a675dd98841"
+        }
+    ]
+}
